@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SEO-оптимизация сайта svarsib.ru (Апрель 2026)</title>
+<style>
+:root{--primary:#D23029;--accent:#F4A236;--dark:#1A1A2E;--dark2:#16213E;--light:#F8F5F1;--gray:#6B7280;--radius:16px;--tap:44px}
+*{margin:0;padding:0;box-sizing:border-box}html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}body{font-family:'Segoe UI',system-ui,-apple-system,sans-serif;background:var(--light);color:var(--dark);line-height:1.6;overflow-x:clip;font-size:clamp(.9375rem,0.875rem + 0.25vw,1rem)}img{max-width:100%;display:block}main{display:block}
+.hero{background:linear-gradient(135deg,var(--dark) 0%,var(--dark2) 100%);color:#fff;padding:clamp(2.8rem,6vw,4.4rem) clamp(1rem,4vw,2rem) clamp(1.8rem,4vw,2.6rem);text-align:center}.hero h1{font-size:clamp(1.55rem,4vw + 0.5rem,2.55rem);font-weight:800;margin-bottom:.9rem;line-height:1.12;overflow-wrap:anywhere;text-wrap:balance}.hero h1 .hero-line{display:block}.hero h1 .hero-line-main{font-size:.82em;color:#fff}.hero h1 .hero-line-brand{color:var(--accent)}.hero p{font-size:clamp(.92rem,0.5vw + 0.8rem,1.06rem);color:rgba(255,255,255,.64);max-width:760px;margin:0 auto 1.35rem;overflow-wrap:anywhere;text-wrap:balance}.hero-stats{display:flex;justify-content:center;gap:clamp(1rem,3vw,2.2rem);flex-wrap:wrap;margin-bottom:0}.hero-stat-value{font-size:clamp(1.5rem,3vw + 0.5rem,2.15rem);font-weight:800;color:var(--accent)}.hero-stat-label{font-size:.82rem;color:rgba(255,255,255,.52);margin-top:.25rem}
+section{padding:clamp(2.5rem,6vw,5rem) clamp(1rem,4vw,2rem)}.container{margin:0 auto;width:100%;max-width:1240px}.bg-white{background:#fff}.section-header{text-align:center;margin-bottom:clamp(1.8rem,4vw,3rem)}.section-header h2{font-size:clamp(1.4rem,3vw + 0.3rem,2rem);font-weight:800;margin-bottom:.55rem;overflow-wrap:anywhere;text-wrap:balance}.section-header p{color:var(--gray);font-size:clamp(.9rem,0.3vw + 0.85rem,1.02rem);max-width:760px;margin:0 auto;overflow-wrap:anywhere}section[id]{scroll-margin-top:1.25rem}
+.cards{display:grid;grid-template-columns:1fr;gap:1.5rem}.cards>*{min-width:0}.code-card{background:#fff;border-radius:16px;padding:2rem;border:1px solid #E5E7EB;transition:transform .2s,box-shadow .2s;min-width:0}.code-card:hover{transform:translateY(-2px);box-shadow:0 8px 30px rgba(0,0,0,.08)}.code-card h3{font-size:1.1rem;margin-bottom:.55rem}.code-card p{color:var(--gray);font-size:.95rem}.code-card pre{margin-top:1rem;background:var(--dark);color:#F9FAFB;border-radius:12px;padding:1rem;overflow:auto;max-width:100%;font-size:.82rem;line-height:1.6;font-family:Consolas,Monaco,monospace}
+.table-wrap{overflow:auto;border-radius:16px;box-shadow:0 1px 3px rgba(0,0,0,.05)}.market-table{width:100%;border-collapse:collapse;background:#fff}.market-table th{text-align:left;padding:1rem 1.15rem;background:var(--dark);color:#fff;font-weight:600;font-size:.84rem;text-transform:uppercase;letter-spacing:.05em}.market-table td{padding:1rem 1.15rem;border-bottom:1px solid #E5E7EB;font-size:.94rem;vertical-align:top}.audit-link{display:inline;color:var(--primary);font-weight:400;text-decoration:none;overflow-wrap:anywhere;word-break:break-word}.audit-link:hover{text-decoration:underline}
+.table-card{background:#fff;border:1px solid #E5E7EB;border-radius:16px;overflow:hidden;margin-top:1.5rem}.table-card-head{padding:1.4rem 1.5rem 1rem}.table-card-head h3{font-size:1.18rem;margin-bottom:.45rem}.table-card-head p{color:var(--gray);font-size:.95rem}
+.alt-summary-main{display:flex;align-items:center;gap:.9rem;min-width:0;flex:1}.alt-index{min-width:32px;height:32px;border-radius:50%;background:var(--primary);color:#fff;display:flex;align-items:center;justify-content:center;font-size:.84rem;font-weight:700}.alt-summary-text{font-size:.98rem;overflow-wrap:anywhere}.flow-layout{margin-top:2rem;display:grid;gap:1rem}.flow-demo{background:#fff;border:1px solid #E5E7EB;border-radius:18px;overflow:hidden}.flow-demo summary{list-style:none;cursor:pointer;display:flex;align-items:center;justify-content:flex-start;gap:1rem;padding:1.05rem 1.25rem;font-weight:700;min-height:var(--tap);-webkit-tap-highlight-color:transparent}.flow-demo summary::-webkit-details-marker{display:none}.flow-demo summary::after{content:'>';font-size:1.3rem;color:#9CA3AF;transition:transform .2s ease;flex-shrink:0;margin-left:.15rem}.flow-demo[open] summary{border-bottom:1px solid #E5E7EB}.flow-demo[open] summary::after{transform:rotate(90deg)}.flow-demo-body{padding:1.25rem;display:grid;gap:1rem}.flow-section{background:#FCFCFC;border:1px solid #ECECEC;border-radius:14px;padding:1rem 1.1rem}.flow-section.accent{background:linear-gradient(135deg,#FFF7ED,#FFF1E6);border-color:#F3D4C7}.flow-section h4{font-size:.82rem;letter-spacing:.05em;text-transform:uppercase;color:var(--primary);margin-bottom:.6rem}.flow-section p{color:var(--gray);font-size:.95rem}.flow-section p:last-child{margin-bottom:0}.flow-section code{background:#F5F6F8;color:var(--dark);padding:.12rem .38rem;border-radius:6px;font-size:.9em}.flow-list{list-style:none;display:grid;gap:.55rem}.flow-list li{position:relative;padding-left:1.2rem;color:var(--gray);font-size:.94rem}.flow-list li::before{content:'';position:absolute;left:0;top:.62rem;width:7px;height:7px;border-radius:50%;background:var(--primary)}.flow-summary-tag{display:inline-block;padding:0;background:transparent;border:none;color:#8B929E;font-size:.82rem;font-weight:500;white-space:normal;max-width:12rem;text-align:right;margin-left:auto;line-height:1.2}
+.flow-section p+.flow-list,.flow-section .flow-list+p,.flow-section p+p{margin-top:.75rem}
+.flow-demo summary:focus-visible,.audit-link:focus-visible{outline:3px solid rgba(210,48,41,.28);outline-offset:3px}
+/* Tabs */
+.tabs{display:flex;justify-content:center;gap:.5rem;margin-bottom:0;padding:0 clamp(1rem,4vw,2rem)}.tab-btn{padding:.75rem 1.5rem;min-height:var(--tap);border:none;background:rgba(255,255,255,.12);color:rgba(255,255,255,.55);border-radius:12px 12px 0 0;cursor:pointer;font-size:clamp(.82rem,0.3vw + 0.75rem,.95rem);font-weight:600;font-family:inherit;transition:background .2s,color .2s;-webkit-tap-highlight-color:transparent}.tab-btn.active{background:var(--light);color:var(--dark)}.tab-btn:hover:not(.active){background:rgba(255,255,255,.2);color:rgba(255,255,255,.8)}
+.tab-content{display:none}.tab-content.active{display:block}
+footer{background:var(--dark);color:rgba(255,255,255,.38);text-align:center;padding:2rem;font-size:.85rem}
+/* Mobile table card transformation */
+@media(max-width:768px){
+.hero-stats{display:grid;grid-template-columns:repeat(3,1fr);gap:.75rem;max-width:100%}
+.hero-stat-label{font-size:.72rem;max-width:none}
+.flow-demo summary{padding:.95rem 1rem;gap:.75rem;align-items:flex-start}
+.alt-summary-text{font-size:.92rem;line-height:1.35}
+.flow-summary-tag{font-size:.76rem;max-width:9rem}
+.flow-demo-body{padding:1rem}
+.flow-section{padding:.9rem 1rem}
+.code-card{padding:1.2rem}
+.code-card pre{padding:.9rem;font-size:.76rem;-webkit-overflow-scrolling:touch}
+/* Tables -> cards on mobile */
+.market-table thead{display:none}
+.market-table,.market-table tbody,.market-table tr,.market-table td{display:block;width:100%}
+.market-table tr{padding:.85rem 1rem .45rem;border-bottom:1px solid #E5E7EB}
+.market-table tr:last-child{border-bottom:none}
+.market-table td{border:none;padding:.3rem 0 .7rem;font-size:.88rem}
+.market-table td::before{content:attr(data-label);display:block;margin-bottom:.25rem;color:var(--gray);font-size:.7rem;font-weight:700;letter-spacing:.05em;text-transform:uppercase}
+.market-table td:last-child{padding-bottom:.35rem}
+.table-card-head{padding:1.1rem 1rem .75rem}
+}
+@media(max-width:480px){
+.hero-stats{grid-template-columns:1fr 1fr 1fr;gap:.5rem}
+.flow-summary-tag{max-width:7rem;font-size:.72rem}
+.alt-index{min-width:28px;height:28px;font-size:.78rem}
+}
+@media(max-width:360px){
+.hero-stats{grid-template-columns:1fr;max-width:200px;margin:0 auto}
+.tab-btn{padding:.55rem .75rem;font-size:.8rem}
+.flow-demo summary{padding:.85rem .85rem}
+.alt-summary-text{font-size:.86rem}
+}
+</style>
+</head>
+<body>
+<main>
+<section class="hero">
+<div class="container">
+<h1>
+<span class="hero-line hero-line-main">SEO-оптимизация сайта</span>
+<span class="hero-line hero-line-brand">svarsib.ru (Апрель 2026)</span>
+</h1>
+<p>Подготовлены прототипы страниц для всех разделов каталога. Пустые страницы с 1-2 товарами заменены на полноценные информационные разделы с ценами, характеристиками, FAQ и Schema.org-разметкой.</p>
+<div class="hero-stats">
+<div class="hero-stat">
+<div class="hero-stat-value">12</div>
+<div class="hero-stat-label">прототипов страниц</div>
+</div>
+<div class="hero-stat">
+<div class="hero-stat-value">6</div>
+<div class="hero-stat-label">каталогов с ценами "от"</div>
+</div>
+<div class="hero-stat">
+<div class="hero-stat-value">80+</div>
+<div class="hero-stat-label">FAQ-вопросов для поиска</div>
+</div>
+</div>
+<div class="tabs" style="margin-top:2rem;">
+<button class="tab-btn active" onclick="switchTab('client')">Отчёт для клиента</button>
+<button class="tab-btn" onclick="switchTab('dev')">ТЗ для программиста</button>
+</div>
+</div>
+</section>
+
+<!-- ==================== TAB 1: CLIENT ==================== -->
+<div class="tab-content active" id="tab-client">
+
+<section id="pages">
+<div class="container">
+<div class="section-header">
+<h2>Что сделано</h2>
+<p>Каждый раздел каталога получил полноценное информационное наполнение вместо пустой страницы с 1-2 товарами. Ниже - подробности по каждому пункту.</p>
+</div>
+<div class="flow-layout">
+
+<!-- 1. Прототипы -->
+<details class="flow-demo" open>
+<summary>
+<span class="alt-summary-main"><span class="alt-index">1</span><span class="alt-summary-text">Подготовлено 12 прототипов страниц каталога</span></span>
+<span class="flow-summary-tag">Основная работа</span>
+</summary>
+<div class="flow-demo-body">
+<div class="flow-section accent">
+<h4>Что было</h4>
+<p>Большинство разделов каталога на сайте содержали 1-3 товара без описаний, без цен, без ответов на вопросы покупателей. Поисковые системы не могли определить экспертность страницы и не показывали сайт по целевым запросам.</p>
+</div>
+<div class="flow-section">
+<h4>Что сделано</h4>
+<p>Для каждого раздела подготовлен HTML-прототип с полным информационным наполнением:</p>
+<ul class="flow-list">
+<li>текст от лица компании с техническими характеристиками продукции;</li>
+<li>таблицы цен "от" по каждому типу продукции;</li>
+<li>раздел FAQ (6-8 вопросов-ответов на каждой странице);</li>
+<li>карточки товаров с реальными фото, ценами и кнопкой "Заказать";</li>
+<li>Schema.org-разметка для поисковых систем (Product + FAQPage).</li>
+</ul>
+</div>
+<div class="flow-section">
+<h4>Зачем это нужно</h4>
+<ul class="flow-list">
+<li>страницы с подробным описанием, ценами и FAQ ранжируются в поиске значительно выше, чем пустые каталоги;</li>
+<li>Яндекс учитывает наличие цен как обязательный коммерческий фактор;</li>
+<li>FAQ-блоки позволяют занимать расширенные сниппеты в выдаче и попадать в ответы AI-поиска (Яндекс Нейро, Google AI Overviews);</li>
+<li>посетитель получает ответы на свои вопросы и с большей вероятностью оставит заявку.</li>
+</ul>
+</div>
+<div class="flow-section">
+<h4>Список прототипов</h4>
+<p>Все прототипы можно просмотреть в браузере по ссылкам ниже. Серые блоки на фото - места для реальных фотографий от клиента.</p>
+</div>
+</div>
+</details>
+
+<!-- Таблица прототипов -->
+<div class="table-card">
+<div class="table-card-head">
+<h3>12 прототипов страниц</h3>
+<p>Каждая ссылка открывает готовый прототип страницы для просмотра</p>
+</div>
+<div class="table-wrap">
+<table class="market-table">
+<thead><tr><th>Раздел сайта</th><th>Было</th><th>Стало</th><th>Прототип</th></tr></thead>
+<tbody>
+<tr><td data-label="Раздел"><a class="audit-link" href="https://svarsib.ru/metallokonstruktsii/metallicheskie-machty/" target="_blank">Металлические мачты</a></td><td data-label="Было">1 товар, нет текста</td><td data-label="Стало">Информационная страница, 8 FAQ, цены</td><td data-label="Прототип"><a class="audit-link" href="https://imperil03.github.io/svarsib-prototypes/metallicheskie-machty.html" target="_blank">Открыть</a></td></tr>
+<tr><td data-label="Раздел"><a class="audit-link" href="https://svarsib.ru/metallokonstruktsii/svai-i-nakonechniki/" target="_blank">Сваи и наконечники</a></td><td data-label="Было">2 товара, нет текста</td><td data-label="Стало">Информационная страница, 8 FAQ, цены</td><td data-label="Прототип"><a class="audit-link" href="https://imperil03.github.io/svarsib-prototypes/svai-i-nakonechniki.html" target="_blank">Открыть</a></td></tr>
+<tr><td data-label="Раздел"><a class="audit-link" href="https://svarsib.ru/metallokonstruktsii/estakady/kabelnye-estakady/" target="_blank">Кабельные эстакады</a></td><td data-label="Было">Нет товаров, нет текста</td><td data-label="Стало">Информационная страница, 8 FAQ, цены</td><td data-label="Прототип"><a class="audit-link" href="https://imperil03.github.io/svarsib-prototypes/kabelnye-estakady.html" target="_blank">Открыть</a></td></tr>
+<tr><td data-label="Раздел"><a class="audit-link" href="https://svarsib.ru/metallokonstruktsii/estakady/estakady-truboprovodov/" target="_blank">Эстакады трубопроводов</a></td><td data-label="Было">Нет товаров, нет текста</td><td data-label="Стало">Информационная страница, 8 FAQ, цены</td><td data-label="Прототип"><a class="audit-link" href="https://imperil03.github.io/svarsib-prototypes/estakady-truboprovodov.html" target="_blank">Открыть</a></td></tr>
+<tr><td data-label="Раздел"><a class="audit-link" href="https://svarsib.ru/metallokonstruktsii/estakady/perekhodyy/" target="_blank">Эстакадные переходы</a></td><td data-label="Было">Нет товаров, нет текста</td><td data-label="Стало">Информационная страница, 7 FAQ, цены</td><td data-label="Прототип"><a class="audit-link" href="https://imperil03.github.io/svarsib-prototypes/perekhody.html" target="_blank">Открыть</a></td></tr>
+<tr><td data-label="Раздел"><a class="audit-link" href="https://svarsib.ru/metallokonstruktsii/opory-elektrosetevye/opory-vl-10-kv/" target="_blank">Опоры ВЛ 6-10 кВ (4.0639)</a></td><td data-label="Было">9 товаров, нет текста, нет цен</td><td data-label="Стало">Каталог 9 товаров + текст, 9 FAQ, цены</td><td data-label="Прототип"><a class="audit-link" href="https://imperil03.github.io/svarsib-prototypes/opory-vl-10-kv.html" target="_blank">Открыть</a></td></tr>
+<tr><td data-label="Раздел"><a class="audit-link" href="https://svarsib.ru/metallokonstruktsii/opory-elektrosetevye/6-10-kv-25-0074/" target="_blank">Опоры ВЛ 6-10 кВ (25.0074)</a></td><td data-label="Было">9 товаров, нет текста, нет цен</td><td data-label="Стало">Каталог 9 товаров + текст, 8 FAQ, цены</td><td data-label="Прототип"><a class="audit-link" href="https://imperil03.github.io/svarsib-prototypes/opory-vl-10-kv-25.html" target="_blank">Открыть</a></td></tr>
+<tr><td data-label="Раздел"><a class="audit-link" href="https://svarsib.ru/metallokonstruktsii/opory-elektrosetevye/opory-vl-35/" target="_blank">Опоры ВЛ 35 кВ (8.0662)</a></td><td data-label="Было">9 товаров, нет текста, нет цен</td><td data-label="Стало">Каталог 9 товаров + текст, 8 FAQ, цены</td><td data-label="Прототип"><a class="audit-link" href="https://imperil03.github.io/svarsib-prototypes/opory-vl-35.html" target="_blank">Открыть</a></td></tr>
+<tr><td data-label="Раздел"><a class="audit-link" href="https://svarsib.ru/metallokonstruktsii/opory-elektrosetevye/" target="_blank">Электросетевые опоры (раздел)</a></td><td data-label="Было">Смешанный список товаров</td><td data-label="Стало">Обзорная страница с навигацией и сравнением серий</td><td data-label="Прототип"><a class="audit-link" href="https://imperil03.github.io/svarsib-prototypes/opory-elektrosetevye.html" target="_blank">Открыть</a></td></tr>
+<tr><td data-label="Раздел"><a class="audit-link" href="https://svarsib.ru/metallokonstruktsii/metallokonstruktsii-zdaniy-i-sooruzheniy/fundamenty-3-407-9-146-1/" target="_blank">Фундаменты серии 3.407.9-146.1</a></td><td data-label="Было">3 товара, нет текста, нет цен</td><td data-label="Стало">Каталог 3 товара + текст, 6 FAQ, цены</td><td data-label="Прототип"><a class="audit-link" href="https://imperil03.github.io/svarsib-prototypes/fundamenty-3-407-9-146-1.html" target="_blank">Открыть</a></td></tr>
+<tr><td data-label="Раздел"><a class="audit-link" href="https://svarsib.ru/metallokonstruktsii/metallokonstruktsii-zdaniy-i-sooruzheniy/fundamenty-3-407-9-146-3/" target="_blank">Фундаменты серии 3.407.9-146.3</a></td><td data-label="Было">9 товаров, нет текста, нет цен</td><td data-label="Стало">Каталог 9 товаров + текст, 6 FAQ, цены</td><td data-label="Прототип"><a class="audit-link" href="https://imperil03.github.io/svarsib-prototypes/fundamenty-3-407-9-146-3.html" target="_blank">Открыть</a></td></tr>
+<tr><td data-label="Раздел"><a class="audit-link" href="https://svarsib.ru/metallokonstruktsii/metallokonstruktsii-zdaniy-i-sooruzheniy/" target="_blank">Фундаменты для опор (раздел)</a></td><td data-label="Было">Смешанный список товаров</td><td data-label="Стало">Обзорная страница с навигацией и сравнением серий</td><td data-label="Прототип"><a class="audit-link" href="https://imperil03.github.io/svarsib-prototypes/fundamenty-dlya-opor.html" target="_blank">Открыть</a></td></tr>
+</tbody>
+</table>
+</div>
+</div>
+
+<!-- 2. Hub-страницы -->
+<details class="flow-demo">
+<summary>
+<span class="alt-summary-main"><span class="alt-index">2</span><span class="alt-summary-text">Основные разделы каталога получили обзорные страницы вместо списка товаров</span></span>
+<span class="flow-summary-tag">Структура сайта</span>
+</summary>
+<div class="flow-demo-body">
+<div class="flow-section accent">
+<h4>Что было</h4>
+<p>Разделы "Электросетевые опоры" и "Металлоконструкции зданий и сооружений" просто выводили список всех товаров из подразделов вперемешку. Посетитель видел карточки опор 6-10 кВ и 35 кВ в одном потоке без объяснения, чем они отличаются.</p>
+</div>
+<div class="flow-section">
+<h4>Что сделано</h4>
+<p>Для этих разделов подготовлены обзорные страницы. Вместо смешанного списка товаров - понятная навигация по подразделам, сравнительные таблицы и общая информация. Посетитель сразу видит, какие подразделы есть, чем они отличаются, и переходит в нужный.</p>
+</div>
+<div class="flow-section">
+<h4>Зачем это нужно</h4>
+<ul class="flow-list">
+<li>посетитель сразу понимает структуру раздела и не теряется в списке из десятков товаров;</li>
+<li>поисковые системы лучше понимают иерархию сайта;</li>
+<li>обзорная страница работает на общий запрос (например, "электросетевые опоры"), а подразделы - на конкретные ("опоры ВЛ 35 кВ серия 8.0662");</li>
+<li>нет дублирования карточек товаров между разделом и подразделами.</li>
+</ul>
+</div>
+</div>
+</details>
+
+<!-- 3. Тонкие каталоги -->
+<details class="flow-demo">
+<summary>
+<span class="alt-summary-main"><span class="alt-index">3</span><span class="alt-summary-text">Разделы с 1-2 товарами заменены на информационные страницы</span></span>
+<span class="flow-summary-tag">Структура сайта</span>
+</summary>
+<div class="flow-demo-body">
+<div class="flow-section accent">
+<h4>Что было</h4>
+<p>Разделы "Металлические мачты" (1 товар), "Сваи и наконечники" (2 товара), эстакады - выглядели как пустые каталоги. Одна карточка без описания и цены не давала поисковым системам повода показывать эту страницу в результатах.</p>
+</div>
+<div class="flow-section">
+<h4>Что сделано</h4>
+<p>Эти разделы переведены из формата каталога в формат информационных страниц. Вместо одинокой карточки товара - полноценное описание продукции: характеристики, цены "от", виды продукции, этапы производства, FAQ.</p>
+</div>
+<div class="flow-section">
+<h4>Зачем это нужно</h4>
+<ul class="flow-list">
+<li>каталог с 1 товаром выглядит пустым и не вызывает доверия у посетителя;</li>
+<li>поисковые системы считают такие страницы "малоценными" (thin content) и занижают их в выдаче;</li>
+<li>информационная страница с характеристиками, ценами и FAQ закрывает вопросы потенциального заказчика и генерирует заявки.</li>
+</ul>
+</div>
+</div>
+</details>
+
+<!-- 4. Переименование -->
+<details class="flow-demo">
+<summary>
+<span class="alt-summary-main"><span class="alt-index">4</span><span class="alt-summary-text">Переименование раздела "Металлоконструкции зданий и сооружений"</span></span>
+<span class="flow-summary-tag">Структура сайта</span>
+</summary>
+<div class="flow-demo-body">
+<div class="flow-section accent">
+<h4>Что не так сейчас</h4>
+<p>Раздел называется "Металлоконструкции зданий и сооружений", но внутри только фундаменты для опор ВЛ (серии 3.407.9-146.1 и 3.407.9-146.3). Посетитель ожидает увидеть колонны, балки и фермы для зданий, а видит фундаменты под опоры линий электропередачи.</p>
+</div>
+<div class="flow-section">
+<h4>Рекомендация</h4>
+<p>Переименовать раздел в <strong>"Фундаменты для опор"</strong>. Это точно описывает содержимое, не пересекается с разделом "Сваи и наконечники" и лучше работает в поиске по запросам "фундаменты для опор ВЛ", "фундаменты под металлические опоры".</p>
+</div>
+</div>
+</details>
+
+<!-- 5. Цены -->
+<details class="flow-demo">
+<summary>
+<span class="alt-summary-main"><span class="alt-index">5</span><span class="alt-summary-text">Добавлены ориентировочные цены "от" на все страницы</span></span>
+<span class="flow-summary-tag">Коммерческие факторы</span>
+</summary>
+<div class="flow-demo-body">
+<div class="flow-section accent">
+<h4>Что было</h4>
+<p>На всех карточках товаров стояла надпись "Цена по запросу". Ни одной цифры на всём каталоге.</p>
+</div>
+<div class="flow-section">
+<h4>Что сделано</h4>
+<p>На каждой странице добавлены ориентировочные цены "от" в рублях - и в карточках товаров, и в отдельных таблицах цен. Под таблицей - приписка, что цена ориентировочная, без доставки и антикоррозийной обработки.</p>
+</div>
+<div class="flow-section">
+<h4>Зачем это нужно</h4>
+<ul class="flow-list">
+<li>Яндекс прямо указывает в документации: наличие цен - обязательный коммерческий фактор ранжирования;</li>
+<li>67% посетителей покидают сайт, если не могут оценить порядок цен;</li>
+<li>AI-поиск (Яндекс Нейро, ChatGPT) при ответе на вопрос "сколько стоит опора ВЛ" предпочитает страницы с конкретными цифрами;</li>
+<li>цена "от" не обязывает продавать по этой цене - это ориентир для заказчика.</li>
+</ul>
+</div>
+<div class="flow-section">
+<h4>Важно</h4>
+<p>Сейчас в прототипах стоят ориентировочные цены. Просим подтвердить или скорректировать стартовые цены по каждому типу продукции.</p>
+</div>
+</div>
+</details>
+
+<!-- 6. Schema.org -->
+<details class="flow-demo">
+<summary>
+<span class="alt-summary-main"><span class="alt-index">6</span><span class="alt-summary-text">Добавлена Schema.org-разметка для поисковых систем</span></span>
+<span class="flow-summary-tag">Поисковая видимость</span>
+</summary>
+<div class="flow-demo-body">
+<div class="flow-section accent">
+<h4>Что это</h4>
+<p>Schema.org - это специальный код, который помогает поисковым системам точнее понимать содержимое страницы: что это за товар, какая цена, кто производитель, какие вопросы-ответы есть на странице.</p>
+</div>
+<div class="flow-section">
+<h4>Что сделано</h4>
+<ul class="flow-list">
+<li><strong>Product</strong> - разметка товара с названием, описанием, ценой и наличием. На каждой продуктовой странице;</li>
+<li><strong>FAQPage</strong> - разметка FAQ-блока. Позволяет показывать вопросы-ответы прямо в поисковой выдаче;</li>
+<li><strong>Microdata Product</strong> - разметка на каждой карточке товара в каталоге (фото, название, цена);</li>
+<li><strong>Organization</strong> - разметка компании (рекомендуется добавить на главную и страницу контактов для формирования карточки компании в поиске).</li>
+</ul>
+</div>
+<div class="flow-section">
+<h4>Зачем это нужно</h4>
+<p>Страницы с разметкой получают расширенные сниппеты в выдаче: цены, рейтинги, FAQ. Это увеличивает кликабельность в 1,5-2 раза по сравнению с обычными результатами. Google и Яндекс активно используют Schema.org для формирования ответов в AI-поиске.</p>
+</div>
+</div>
+</details>
+
+<!-- 7. FAQ -->
+<details class="flow-demo">
+<summary>
+<span class="alt-summary-main"><span class="alt-index">7</span><span class="alt-summary-text">Написано 80+ вопросов-ответов (FAQ) по всем разделам</span></span>
+<span class="flow-summary-tag">Поисковый трафик</span>
+</summary>
+<div class="flow-demo-body">
+<div class="flow-section accent">
+<h4>Что сделано</h4>
+<p>На каждой странице добавлен блок FAQ с 6-9 вопросами и подробными ответами. Вопросы подобраны на основе реальных поисковых запросов: "из какой стали делают опоры для ХМАО", "чем серия 25.0074 отличается от 4.0639", "нужны ли термостабилизаторы" и другие.</p>
+</div>
+<div class="flow-section">
+<h4>Зачем это нужно</h4>
+<ul class="flow-list">
+<li>каждый вопрос - это отдельный поисковый запрос, по которому страница может показываться в выдаче;</li>
+<li>FAQ со Schema.org-разметкой занимают расширенные сниппеты (больше места в выдаче);</li>
+<li>AI-поиск (Яндекс Нейро, Google AI Overviews, ChatGPT) берёт ответы из FAQ-блоков для формирования своих ответов;</li>
+<li>посетитель получает ответы на свои вопросы прямо на странице и не уходит к конкурентам.</li>
+</ul>
+</div>
+</div>
+</details>
+
+<!-- 8. Meta -->
+<details class="flow-demo">
+<summary>
+<span class="alt-summary-main"><span class="alt-index">8</span><span class="alt-summary-text">Подготовлены Title и Description для всех новых страниц</span></span>
+<span class="flow-summary-tag">SEO-основа</span>
+</summary>
+<div class="flow-demo-body">
+<div class="flow-section accent">
+<h4>Что это</h4>
+<p>Title - заголовок страницы в поисковой выдаче. Description - краткое описание под заголовком. По этим текстам пользователь решает, перейти на сайт или нет.</p>
+</div>
+<div class="flow-section">
+<h4>Что сделано</h4>
+<p>Для каждой из 12 новых страниц подготовлены уникальные Title и Description, которые точно описывают содержимое страницы и включают ключевые слова: тип продукции, серию, материал, географию.</p>
+</div>
+<div class="flow-section">
+<h4>Зачем это нужно</h4>
+<p>Уникальные мета-теги помогают поисковым системам различать страницы и показывать каждую по своим запросам. Без них разные разделы каталога конкурируют друг с другом в выдаче.</p>
+</div>
+</div>
+</details>
+
+</div>
+</div>
+</section>
+</div>
+
+<!-- ==================== TAB 2: DEVELOPER ==================== -->
+<div class="tab-content" id="tab-dev">
+
+<section id="dev-tasks">
+<div class="container">
+<div class="section-header">
+<h2>Задачи для внедрения на сайт</h2>
+<p>Прототипы страниц: <a class="audit-link" href="https://github.com/Imperil03/svarsib-prototypes" target="_blank">github.com/Imperil03/svarsib-prototypes</a></p>
+</div>
+<div class="flow-layout">
+
+<!-- D1. Структура: разделы с подразделами -->
+<details class="flow-demo" open>
+<summary>
+<span class="alt-summary-main"><span class="alt-index">1</span><span class="alt-summary-text">Разделы с подразделами: вместо списка товаров - обзорная страница с текстом</span></span>
+<span class="flow-summary-tag">Структура</span>
+</summary>
+<div class="flow-demo-body">
+<div class="flow-section accent">
+<h4>Что сейчас</h4>
+<p>Разделы "Электросетевые опоры" и "Металлоконструкции зданий и сооружений" автоматически выводят все товары из подразделов вперемешку. Нет возможности добавить текст, описание, навигацию по подразделам.</p>
+</div>
+<div class="flow-section">
+<h4>Что нужно</h4>
+<p>На страницах этих разделов убрать автоматический вывод товаров. Вместо него - возможность размещать произвольный контент (текст, таблицы, блоки). Контент для каждого раздела подготовлен в прототипах:</p>
+<ul class="flow-list">
+<li><a class="audit-link" href="https://imperil03.github.io/svarsib-prototypes/opory-elektrosetevye.html" target="_blank">/opory-elektrosetevye/</a> - обзорная страница с навигацией по 3 сериям опор</li>
+<li><a class="audit-link" href="https://imperil03.github.io/svarsib-prototypes/fundamenty-dlya-opor.html" target="_blank">/metallokonstruktsii-zdaniy-i-sooruzheniy/</a> - обзорная страница с навигацией по 2 сериям фундаментов</li>
+</ul>
+</div>
+</div>
+</details>
+
+<!-- D2. Структура: разделы с 1-2 товарами -->
+<details class="flow-demo">
+<summary>
+<span class="alt-summary-main"><span class="alt-index">2</span><span class="alt-summary-text">Разделы с 1-2 товарами: убрать каталог, сделать информационную страницу</span></span>
+<span class="flow-summary-tag">Структура</span>
+</summary>
+<div class="flow-demo-body">
+<div class="flow-section accent">
+<h4>Что сейчас</h4>
+<p>В нескольких разделах каталог содержит 1-2 товара без описания. Выглядит пусто.</p>
+</div>
+<div class="flow-section">
+<h4>Что нужно</h4>
+<p>Убрать каталожный вывод в этих разделах и заменить на информационную страницу с текстом. Контент подготовлен:</p>
+<ul class="flow-list">
+<li><a class="audit-link" href="https://imperil03.github.io/svarsib-prototypes/metallicheskie-machty.html" target="_blank">/metallicheskie-machty/</a> - сейчас 1 товар</li>
+<li><a class="audit-link" href="https://imperil03.github.io/svarsib-prototypes/svai-i-nakonechniki.html" target="_blank">/svai-i-nakonechniki/</a> - сейчас 2 товара</li>
+<li><a class="audit-link" href="https://imperil03.github.io/svarsib-prototypes/kabelnye-estakady.html" target="_blank">/estakady/kabelnye-estakady/</a> - пустой раздел</li>
+<li><a class="audit-link" href="https://imperil03.github.io/svarsib-prototypes/estakady-truboprovodov.html" target="_blank">/estakady/estakady-truboprovodov/</a> - пустой раздел</li>
+<li><a class="audit-link" href="https://imperil03.github.io/svarsib-prototypes/perekhody.html" target="_blank">/estakady/perekhodyy/</a> - пустой раздел</li>
+</ul>
+</div>
+</div>
+</details>
+
+<!-- D3. Контент для разделов с каталогом -->
+<details class="flow-demo">
+<summary>
+<span class="alt-summary-main"><span class="alt-index">3</span><span class="alt-summary-text">Добавить тексты в разделы каталога, где есть товары</span></span>
+<span class="flow-summary-tag">Контент</span>
+</summary>
+<div class="flow-demo-body">
+<div class="flow-section accent">
+<h4>Что нужно</h4>
+<p>В разделах, где каталог товаров остаётся (опоры, фундаменты), добавить текстовый контент: описание, таблицы характеристик, FAQ. Тексты подготовлены в прототипах - перенести все блоки без пропусков (заголовки, таблицы, FAQ, CTA).</p>
+</div>
+<div class="flow-section">
+<h4>Прототипы</h4>
+<ul class="flow-list">
+<li><a class="audit-link" href="https://imperil03.github.io/svarsib-prototypes/opory-vl-10-kv.html" target="_blank">/opory-vl-10-kv/</a> - Опоры ВЛ 6-10 кВ (4.0639)</li>
+<li><a class="audit-link" href="https://imperil03.github.io/svarsib-prototypes/opory-vl-10-kv-25.html" target="_blank">/6-10-kv-25-0074/</a> - Опоры ВЛ 6-10 кВ (25.0074)</li>
+<li><a class="audit-link" href="https://imperil03.github.io/svarsib-prototypes/opory-vl-35.html" target="_blank">/opory-vl-35/</a> - Опоры ВЛ 35 кВ (8.0662)</li>
+<li><a class="audit-link" href="https://imperil03.github.io/svarsib-prototypes/fundamenty-3-407-9-146-1.html" target="_blank">/fundamenty-3-407-9-146-1/</a> - Фундаменты серии 146.1</li>
+<li><a class="audit-link" href="https://imperil03.github.io/svarsib-prototypes/fundamenty-3-407-9-146-3.html" target="_blank">/fundamenty-3-407-9-146-3/</a> - Фундаменты серии 146.3</li>
+</ul>
+</div>
+</div>
+</details>
+
+<!-- D4. Переименование -->
+<details class="flow-demo">
+<summary>
+<span class="alt-summary-main"><span class="alt-index">4</span><span class="alt-summary-text">Переименовать раздел + новый URL + 301-редирект</span></span>
+<span class="flow-summary-tag">Структура</span>
+</summary>
+<div class="flow-demo-body">
+<div class="flow-section">
+<h4>Что нужно</h4>
+<p>Раздел "Металлоконструкции зданий и сооружений" переименовать в "Фундаменты для опор". Новый URL: <code>/metallokonstruktsii/fundamenty-dlya-opor/</code>. Со старого URL настроить 301-редирект. Обновить название во всей навигации: меню, хлебные крошки, sidebar, footer.</p>
+</div>
+</div>
+</details>
+
+<!-- D5. JSON-LD + Organization -->
+<details class="flow-demo">
+<summary>
+<span class="alt-summary-main"><span class="alt-index">5</span><span class="alt-summary-text">Schema.org-разметка: Product, FAQPage, Organization</span></span>
+<span class="flow-summary-tag">Разметка</span>
+</summary>
+<div class="flow-demo-body">
+<div class="flow-section accent">
+<h4>Что нужно</h4>
+<p>На каждой продуктовой странице добавить JSON-LD с разметкой Product и FAQPage. Готовые блоки есть в каждом прототипе перед <code>&lt;/body&gt;</code>. На главную и контакты - Organization (код ниже).</p>
+</div>
+<div class="flow-section">
+<h4>Готовый код Organization для главной и контактов</h4>
+<p>Вставить перед <code>&lt;/body&gt;</code> на главной странице и на /kontakty/:</p>
+</div>
+</div>
+</details>
+
+<!-- Код Organization -->
+<div class="code-card" style="margin-top:.5rem;">
+<h3>Organization - готовый код</h3>
+<p>Для главной страницы и /kontakty/. На остальных страницах Organization не нужна.</p>
+<pre><code>&lt;script type="application/ld+json"&gt;
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Сварсиб",
+  "url": "https://svarsib.ru",
+  "logo": "https://svarsib.ru/upload/iblock/362/l9o95yabewibv1u39oj97xb568rnlzja.svg",
+  "telephone": "+7 (3462) 55-05-83",
+  "email": "op@svarsib.ru",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "ул. Промышленная, 20/2",
+    "addressLocality": "Сургут",
+    "addressRegion": "Ханты-Мансийский автономный округ - Югра",
+    "postalCode": "628400",
+    "addressCountry": "RU"
+  },
+  "foundingDate": "2015",
+  "areaServed": ["ХМАО", "ЯНАО", "Тюменская область"],
+  "description": "Завод металлоконструкций и металлообработки в Сургуте. Опоры ВЛ, эстакады, мачты, сваи, фундаменты из стали 09Г2С."
+}
+&lt;/script&gt;</code></pre>
+</div>
+
+<!-- D6. Microdata -->
+<details class="flow-demo" style="margin-top:1rem;">
+<summary>
+<span class="alt-summary-main"><span class="alt-index">6</span><span class="alt-summary-text">Microdata Product на карточках каталога</span></span>
+<span class="flow-summary-tag">Разметка</span>
+</summary>
+<div class="flow-demo-body">
+<div class="flow-section">
+<h4>Что нужно</h4>
+<p>В шаблоне карточки товара добавить атрибуты <code>itemscope itemtype="https://schema.org/Product"</code> и <code>itemprop</code> на название, фото, цену. Применяется ко всем карточкам товаров на сайте. Пример реализации - в любом прототипе с каталогом (например, opory-vl-10-kv.html).</p>
+</div>
+</div>
+</details>
+
+<!-- D7. Цены -->
+<details class="flow-demo">
+<summary>
+<span class="alt-summary-main"><span class="alt-index">7</span><span class="alt-summary-text">Цены "от" вместо "Цена по запросу"</span></span>
+<span class="flow-summary-tag">Каталог</span>
+</summary>
+<div class="flow-demo-body">
+<div class="flow-section">
+<h4>Что нужно</h4>
+<p>В карточках товаров заменить "Цена по запросу" на ориентировочную цену "от X руб.". Конкретные суммы по каждому товару есть в прототипах.</p>
+</div>
+</div>
+</details>
+
+<!-- D8. ALT -->
+<details class="flow-demo">
+<summary>
+<span class="alt-summary-main"><span class="alt-index">8</span><span class="alt-summary-text">ALT-тексты на фотографиях товаров</span></span>
+<span class="flow-summary-tag">Каталог</span>
+</summary>
+<div class="flow-demo-body">
+<div class="flow-section">
+<h4>Что нужно</h4>
+<p>Настроить в шаблоне Bitrix автоматическую генерацию alt по формату: <code>[Тип] [Марка] серии [серия]</code>. Пример: <code>Стальная промежуточная опора Пт10-1 серии 4.0639</code>. Вручную прописывать не нужно - должен формироваться автоматически из полей товара.</p>
+</div>
+</div>
+</details>
+
+<!-- D9. Названия Б35 -->
+<details class="flow-demo">
+<summary>
+<span class="alt-summary-main"><span class="alt-index">9</span><span class="alt-summary-text">Названия товаров фундаментов: добавить слово "Фундамент"</span></span>
+<span class="flow-summary-tag">Каталог</span>
+</summary>
+<div class="flow-demo-body">
+<div class="flow-section">
+<h4>Что нужно</h4>
+<p>В разделе фундаментов серии 3.407.9-146.3 товары называются голой маркой: "Б35-0-20", "Б35-1-24". Переименовать в "Фундамент Б35-0-20", "Фундамент Б35-1-24" и т.д.</p>
+</div>
+</div>
+</details>
+
+<!-- D10. Title/Description -->
+<details class="flow-demo">
+<summary>
+<span class="alt-summary-main"><span class="alt-index">10</span><span class="alt-summary-text">Title и Description для новых страниц</span></span>
+<span class="flow-summary-tag">Мета-теги</span>
+</summary>
+<div class="flow-demo-body">
+<div class="flow-section">
+<h4>Что нужно</h4>
+<p>Задать Title и Description для каждой новой/изменённой страницы. Готовые значения в таблице ниже.</p>
+</div>
+</div>
+</details>
+
+</div>
+
+<!-- Таблица Title/Description -->
+<div class="table-card" style="margin-top:2rem;">
+<div class="table-card-head">
+<h3>Title и Description</h3>
+</div>
+<div class="table-wrap">
+<table class="market-table">
+<thead><tr><th>URL</th><th>Текущий Title</th><th>Новый Title</th></tr></thead>
+<tbody>
+<tr><td data-label="URL">/svai-i-nakonechniki/</td><td data-label="Текущий Title">Сваи и наконечники | Сварсиб</td><td data-label="Новый Title">Металлические сваи в Сургуте - производство | Сварсиб</td></tr>
+</tbody>
+</table>
+</div>
+</div>
+
+</div>
+</section>
+</div>
+
+</main>
+<footer>SEO-оптимизация каталога svarsib.ru - А1-Интернет Эксперт, апрель 2026</footer>
+
+<script>
+function switchTab(tab){
+document.querySelectorAll('.tab-btn').forEach(b=>b.classList.remove('active'));
+document.querySelectorAll('.tab-content').forEach(c=>c.classList.remove('active'));
+if(tab==='client'){
+document.getElementById('tab-client').classList.add('active');
+document.querySelectorAll('.tab-btn')[0].classList.add('active');
+}else{
+document.getElementById('tab-dev').classList.add('active');
+document.querySelectorAll('.tab-btn')[1].classList.add('active');
+}
+window.scrollTo({top:0,behavior:'smooth'});
+}
+</script>
+</body>
+</html>
