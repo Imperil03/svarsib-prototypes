@@ -4,8 +4,8 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 	<meta name="robots" content="index, follow" />
-	<meta name="keywords" content="опоры ВЛ 35 кВ, серия 8.0662, решётчатые опоры, металлические опоры ЛЭП, 09Г2С, Сургут, ХМАО" />
-	<meta name="description" content="Производство стальных решётчатых опор ВЛ 35 кВ серии 8.0662 в Сургуте. Промежуточные, угловые, анкерные. Сталь 09Г2С до -70°C. Цены от 85 000 руб. Горячее цинкование." />
+	<meta name="keywords" content="опоры ВЛ 35 кВ, серия 8.0662, стальные опоры, металлические опоры ЛЭП, 09Г2С, Сургут, ХМАО" />
+	<meta name="description" content="Производство стальных опор ВЛ 35 кВ серии 8.0662 в Сургуте. Промежуточные, концевые, угловые анкерные и анкерные угловые ответвительные опоры. Сталь 09Г2С." />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<meta name="theme-color" content="#ffffff" />
 
@@ -121,6 +121,30 @@
 			color: #333;
 		}
 		.page-content p:last-child { margin-bottom: 0; }
+
+		.client-edit {
+			background: #fff3a3;
+			box-decoration-break: clone;
+			-webkit-box-decoration-break: clone;
+			padding: 0 3px;
+			border-radius: 3px;
+		}
+		tr.client-edit th,
+		tr.client-edit td,
+		details.client-edit summary,
+		details.client-edit .faq-answer,
+		.price-factor.client-edit h4,
+		.price-factor.client-edit p,
+		.advantage-card.client-edit h3,
+		.advantage-card.client-edit p,
+		.process-step.client-edit h3,
+		.process-step.client-edit p,
+		.mast-type-card.client-edit h4,
+		.mast-type-card.client-edit p,
+		.use-card.client-edit h4,
+		.use-card.client-edit p {
+			background: #fff3a3 !important;
+		}
 
 		.page-content ul {
 			padding-left: 0;
@@ -248,6 +272,9 @@
 			text-transform: uppercase;
 			letter-spacing: 0.03em;
 		}
+		.page-content table thead th .client-edit {
+			color: #0F0F0F;
+		}
 
 		.page-content table tbody tr {
 			border-bottom: 1px solid #f0f0f0;
@@ -261,6 +288,19 @@
 		/* Цена - обычный чёрный, nowrap чтобы не разбивалась */
 		.page-content table:has(thead) tbody td:last-child {
 			white-space: nowrap;
+		}
+
+		.product-section-slider-item > .mast-img-placeholder {
+			width: 100%;
+			height: 220px;
+			background: #f0f0f2;
+			border-radius: 12px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			color: #bbb;
+			font-size: 13px;
+			margin-bottom: 12px;
 		}
 
 		/* === ГАЛЕРЕЯ === */
@@ -548,7 +588,14 @@
 		}
 		@media (max-width: 720px) {
 			.gallery-grid { grid-template-columns: repeat(2, 1fr); }
-			.page-content table { font-size: 14px; }
+			.page-content .table-wrap {
+				overflow-x: auto;
+				-webkit-overflow-scrolling: touch;
+			}
+			.page-content table {
+				font-size: 14px;
+				min-width: 680px;
+			}
 			.page-content table th, .page-content table td { padding: 10px 14px; }
 		}
 		@media (max-width: 500px) {
@@ -762,67 +809,91 @@
 
 			<!-- Lead -->
 			<div class="content-section">
-			<p>Завод «Сварсиб» в Сургуте изготавливает стальные решётчатые опоры ВЛ 35 кВ по серии 8.0662. В каталоге промежуточные, угловые и анкерно-угловые марки. Сталь 09Г2С для работы при температурах до -65 °C, горячее цинкование по ГОСТ 9.307. Высота опор от 14 до 22 м, масса от 800 до 2 800 кг.</p>
+			<p><span class="client-edit">Завод «Сварсиб» в Сургуте изготавливает стальные опоры ВЛ 35 кВ по серии 8.0662. В каталоге представлены промежуточные, концевые, угловые анкерные и анкерные угловые ответвительные опоры. Конструкции выполнены из хладостойкой стали 09Г2С, сохраняющей ударную вязкость до -70 °C.</span></p>
 			</div>
 
 			<!-- Каталог -->
 			<div class="content-section">
 			<h2>Каталог опор серии 8.0662</h2>
-			<p>В серию входят 9 марок промежуточных опор от Пт35-1 до Пт35-3, а также угловые Ут35 и анкерно-угловые (концевые) Ат35.</p>
+			<p><span class="client-edit">По серии 8.0662 изготавливаем все 13 типов опор: промежуточные (Пт35-1, Пт35-2, Пт35-3 с усиленными версиями), концевые (Кт35-1), угловые анкерные (УАт35-1) и анкерные угловые ответвительные (АУОт35-1).</span></p>
 			<div class="section-content-grid">
 				<div class="product-section-slider-item" itemscope itemtype="https://schema.org/Product" data-href="https://svarsib.ru/metallokonstruktsii/opory-elektrosetevye/opory-vl-35/promezhutochnaya-opora-pt35-1/">
 					<img itemprop="image" src="https://svarsib.ru/upload/iblock/1a4/161moqg0kgun0nrfyk518d9s2eatm0gj.jpg" alt="Стальная промежуточная опора Пт35-1 серии 8.0662 для ВЛ 35 кВ">
 					<div class="price-container"><div class="price-round"></div><span>В наличии</span></div>
 					<a class="h3" itemprop="name">Промежуточная опора Пт35-1</a>
-					<div class="cont" itemprop="offers" itemscope itemtype="https://schema.org/Offer"><meta itemprop="priceCurrency" content="RUB"><meta itemprop="availability" content="https://schema.org/InStock"><div class="price" itemprop="price" content="85000">от 85 000 руб.</div><a class="button" data-popup-open="popup-call-back" data-popup-product-name="Промежуточная опора Пт35-1">Заказать</a></div>
+					<div class="cont" itemprop="offers" itemscope itemtype="https://schema.org/Offer"><meta itemprop="priceCurrency" content="RUB"><meta itemprop="availability" content="https://schema.org/InStock"><div class="price client-edit" itemprop="price" content="98000">от 98 000 руб.</div><a class="button" data-popup-open="popup-call-back" data-popup-product-name="Промежуточная опора Пт35-1">Заказать</a></div>
 				</div>
 				<div class="product-section-slider-item" itemscope itemtype="https://schema.org/Product" data-href="https://svarsib.ru/metallokonstruktsii/opory-elektrosetevye/opory-vl-35/promezhutochnaya-opora-pt35-1a/">
 					<img itemprop="image" src="https://svarsib.ru/upload/iblock/77e/hoz1uoz4ymxahowyy61wv7fz5ta566ih.jpg" alt="Стальная промежуточная опора Пт35-1А серии 8.0662 для ВЛ 35 кВ">
 					<div class="price-container"><div class="price-round"></div><span>В наличии</span></div>
 					<a class="h3" itemprop="name">Промежуточная опора Пт35-1А</a>
-					<div class="cont" itemprop="offers" itemscope itemtype="https://schema.org/Offer"><meta itemprop="priceCurrency" content="RUB"><meta itemprop="availability" content="https://schema.org/InStock"><div class="price" itemprop="price" content="95000">от 95 000 руб.</div><a class="button" data-popup-open="popup-call-back" data-popup-product-name="Промежуточная опора Пт35-1А">Заказать</a></div>
+					<div class="cont" itemprop="offers" itemscope itemtype="https://schema.org/Offer"><meta itemprop="priceCurrency" content="RUB"><meta itemprop="availability" content="https://schema.org/InStock"><div class="price client-edit" itemprop="price" content="90000">от 90 000 руб.</div><a class="button" data-popup-open="popup-call-back" data-popup-product-name="Промежуточная опора Пт35-1А">Заказать</a></div>
 				</div>
 				<div class="product-section-slider-item" itemscope itemtype="https://schema.org/Product" data-href="https://svarsib.ru/metallokonstruktsii/opory-elektrosetevye/opory-vl-35/promezhutochnaya-opora-pt35-1t/">
 					<img itemprop="image" src="https://svarsib.ru/upload/iblock/1c4/3vk6kbljvskyofygquvi0h9jcsakunvy.jpg" alt="Промежуточная опора Пт35-1т с тросостойкой серии 8.0662">
 					<div class="price-container"><div class="price-round"></div><span>В наличии</span></div>
 					<a class="h3" itemprop="name">Промежуточная опора Пт35-1т</a>
-					<div class="cont" itemprop="offers" itemscope itemtype="https://schema.org/Offer"><meta itemprop="priceCurrency" content="RUB"><meta itemprop="availability" content="https://schema.org/InStock"><div class="price" itemprop="price" content="105000">от 105 000 руб.</div><a class="button" data-popup-open="popup-call-back" data-popup-product-name="Промежуточная опора Пт35-1т">Заказать</a></div>
+					<div class="cont" itemprop="offers" itemscope itemtype="https://schema.org/Offer"><meta itemprop="priceCurrency" content="RUB"><meta itemprop="availability" content="https://schema.org/InStock"><div class="price client-edit" itemprop="price" content="104000">от 104 000 руб.</div><a class="button" data-popup-open="popup-call-back" data-popup-product-name="Промежуточная опора Пт35-1т">Заказать</a></div>
 				</div>
 				<div class="product-section-slider-item" itemscope itemtype="https://schema.org/Product" data-href="https://svarsib.ru/metallokonstruktsii/opory-elektrosetevye/opory-vl-35/promezhutochnaya-opora-pt35-1ta/">
 					<img itemprop="image" src="https://svarsib.ru/upload/iblock/c35/kvm1zwkr83j0uojsxu3gurxnui6qcpso.jpg" alt="Промежуточная опора Пт35-1тА усиленная с тросостойкой серии 8.0662">
 					<div class="price-container"><div class="price-round"></div><span>В наличии</span></div>
 					<a class="h3" itemprop="name">Промежуточная опора Пт35-1тА</a>
-					<div class="cont" itemprop="offers" itemscope itemtype="https://schema.org/Offer"><meta itemprop="priceCurrency" content="RUB"><meta itemprop="availability" content="https://schema.org/InStock"><div class="price" itemprop="price" content="115000">от 115 000 руб.</div><a class="button" data-popup-open="popup-call-back" data-popup-product-name="Промежуточная опора Пт35-1тА">Заказать</a></div>
+					<div class="cont" itemprop="offers" itemscope itemtype="https://schema.org/Offer"><meta itemprop="priceCurrency" content="RUB"><meta itemprop="availability" content="https://schema.org/InStock"><div class="price client-edit" itemprop="price" content="97000">от 97 000 руб.</div><a class="button" data-popup-open="popup-call-back" data-popup-product-name="Промежуточная опора Пт35-1тА">Заказать</a></div>
 				</div>
 				<div class="product-section-slider-item" itemscope itemtype="https://schema.org/Product" data-href="https://svarsib.ru/metallokonstruktsii/opory-elektrosetevye/opory-vl-35/promezhutochnaya-opora-pt35-2/">
 					<img itemprop="image" src="https://svarsib.ru/upload/iblock/c34/a2hm33cfztlgut04br3ojtwhze0z3ya8.png" alt="Стальная промежуточная опора Пт35-2 серии 8.0662 для ВЛ 35 кВ">
 					<div class="price-container"><div class="price-round"></div><span>В наличии</span></div>
 					<a class="h3" itemprop="name">Промежуточная опора Пт35-2</a>
-					<div class="cont" itemprop="offers" itemscope itemtype="https://schema.org/Offer"><meta itemprop="priceCurrency" content="RUB"><meta itemprop="availability" content="https://schema.org/InStock"><div class="price" itemprop="price" content="98000">от 98 000 руб.</div><a class="button" data-popup-open="popup-call-back" data-popup-product-name="Промежуточная опора Пт35-2">Заказать</a></div>
+					<div class="cont" itemprop="offers" itemscope itemtype="https://schema.org/Offer"><meta itemprop="priceCurrency" content="RUB"><meta itemprop="availability" content="https://schema.org/InStock"><div class="price client-edit" itemprop="price" content="155000">от 155 000 руб.</div><a class="button" data-popup-open="popup-call-back" data-popup-product-name="Промежуточная опора Пт35-2">Заказать</a></div>
 				</div>
 				<div class="product-section-slider-item" itemscope itemtype="https://schema.org/Product" data-href="https://svarsib.ru/metallokonstruktsii/opory-elektrosetevye/opory-vl-35/promezhutochnaya-opora-pt35-2a/">
 					<img itemprop="image" src="https://svarsib.ru/upload/iblock/753/nrhqctrvakd20x40n882fdn201zkmncp.jpg" alt="Стальная промежуточная опора Пт35-2А серии 8.0662 для ВЛ 35 кВ">
 					<div class="price-container"><div class="price-round"></div><span>В наличии</span></div>
 					<a class="h3" itemprop="name">Промежуточная опора Пт35-2А</a>
-					<div class="cont" itemprop="offers" itemscope itemtype="https://schema.org/Offer"><meta itemprop="priceCurrency" content="RUB"><meta itemprop="availability" content="https://schema.org/InStock"><div class="price" itemprop="price" content="110000">от 110 000 руб.</div><a class="button" data-popup-open="popup-call-back" data-popup-product-name="Промежуточная опора Пт35-2А">Заказать</a></div>
+					<div class="cont" itemprop="offers" itemscope itemtype="https://schema.org/Offer"><meta itemprop="priceCurrency" content="RUB"><meta itemprop="availability" content="https://schema.org/InStock"><div class="price client-edit" itemprop="price" content="147000">от 147 000 руб.</div><a class="button" data-popup-open="popup-call-back" data-popup-product-name="Промежуточная опора Пт35-2А">Заказать</a></div>
 				</div>
 				<div class="product-section-slider-item" itemscope itemtype="https://schema.org/Product" data-href="https://svarsib.ru/metallokonstruktsii/opory-elektrosetevye/opory-vl-35/promezhutochnaya-opora-pt35-2t/">
 					<img itemprop="image" src="https://svarsib.ru/upload/iblock/5da/awu3q8cge8m10suqg8vhaldx2cjjxmoi.jpg" alt="Промежуточная опора Пт35-2т с тросостойкой серии 8.0662">
 					<div class="price-container"><div class="price-round"></div><span>В наличии</span></div>
 					<a class="h3" itemprop="name">Промежуточная опора Пт35-2т</a>
-					<div class="cont" itemprop="offers" itemscope itemtype="https://schema.org/Offer"><meta itemprop="priceCurrency" content="RUB"><meta itemprop="availability" content="https://schema.org/InStock"><div class="price" itemprop="price" content="120000">от 120 000 руб.</div><a class="button" data-popup-open="popup-call-back" data-popup-product-name="Промежуточная опора Пт35-2т">Заказать</a></div>
+					<div class="cont" itemprop="offers" itemscope itemtype="https://schema.org/Offer"><meta itemprop="priceCurrency" content="RUB"><meta itemprop="availability" content="https://schema.org/InStock"><div class="price client-edit" itemprop="price" content="159000">от 159 000 руб.</div><a class="button" data-popup-open="popup-call-back" data-popup-product-name="Промежуточная опора Пт35-2т">Заказать</a></div>
 				</div>
 				<div class="product-section-slider-item" itemscope itemtype="https://schema.org/Product" data-href="https://svarsib.ru/metallokonstruktsii/opory-elektrosetevye/opory-vl-35/promezhutochnaya-opora-pt35-2ta/">
 					<img itemprop="image" src="https://svarsib.ru/upload/iblock/1a6/5678tmpdrlz649m2cmj58861vkgtkhve.jpg" alt="Промежуточная опора Пт35-2тА усиленная с тросостойкой серии 8.0662">
 					<div class="price-container"><div class="price-round"></div><span>В наличии</span></div>
 					<a class="h3" itemprop="name">Промежуточная опора Пт35-2тА</a>
-					<div class="cont" itemprop="offers" itemscope itemtype="https://schema.org/Offer"><meta itemprop="priceCurrency" content="RUB"><meta itemprop="availability" content="https://schema.org/InStock"><div class="price" itemprop="price" content="130000">от 130 000 руб.</div><a class="button" data-popup-open="popup-call-back" data-popup-product-name="Промежуточная опора Пт35-2тА">Заказать</a></div>
+					<div class="cont" itemprop="offers" itemscope itemtype="https://schema.org/Offer"><meta itemprop="priceCurrency" content="RUB"><meta itemprop="availability" content="https://schema.org/InStock"><div class="price client-edit" itemprop="price" content="154000">от 154 000 руб.</div><a class="button" data-popup-open="popup-call-back" data-popup-product-name="Промежуточная опора Пт35-2тА">Заказать</a></div>
 				</div>
 				<div class="product-section-slider-item" itemscope itemtype="https://schema.org/Product" data-href="https://svarsib.ru/metallokonstruktsii/opory-elektrosetevye/opory-vl-35/promezhutochnaya-opora-pt35-3/">
 					<img itemprop="image" src="https://svarsib.ru/upload/iblock/ce6/oe50ojai96zahddv191brsqm86m34gta.jpg" alt="Стальная промежуточная опора Пт35-3 серии 8.0662 для ВЛ 35 кВ">
 					<div class="price-container"><div class="price-round"></div><span>В наличии</span></div>
 					<a class="h3" itemprop="name">Промежуточная опора Пт35-3</a>
-					<div class="cont" itemprop="offers" itemscope itemtype="https://schema.org/Offer"><meta itemprop="priceCurrency" content="RUB"><meta itemprop="availability" content="https://schema.org/InStock"><div class="price" itemprop="price" content="140000">от 140 000 руб.</div><a class="button" data-popup-open="popup-call-back" data-popup-product-name="Промежуточная опора Пт35-3">Заказать</a></div>
+					<div class="cont" itemprop="offers" itemscope itemtype="https://schema.org/Offer"><meta itemprop="priceCurrency" content="RUB"><meta itemprop="availability" content="https://schema.org/InStock"><div class="price client-edit" itemprop="price" content="92000">от 92 000 руб.</div><a class="button" data-popup-open="popup-call-back" data-popup-product-name="Промежуточная опора Пт35-3">Заказать</a></div>
+				</div>
+				<div class="product-section-slider-item" itemscope itemtype="https://schema.org/Product">
+					<div class="mast-img-placeholder"><span class="client-edit">Фото Пт35-3А</span></div>
+					<div class="price-container"><div class="price-round"></div><span>В наличии</span></div>
+					<a class="h3" itemprop="name"><span class="client-edit">Промежуточная опора Пт35-3А</span></a>
+					<div class="cont" itemprop="offers" itemscope itemtype="https://schema.org/Offer"><meta itemprop="priceCurrency" content="RUB"><meta itemprop="availability" content="https://schema.org/InStock"><div class="price client-edit" itemprop="price" content="84000">от 84 000 руб.</div><a class="button" data-popup-open="popup-call-back" data-popup-product-name="Промежуточная опора Пт35-3А">Заказать</a></div>
+				</div>
+				<div class="product-section-slider-item" itemscope itemtype="https://schema.org/Product">
+					<div class="mast-img-placeholder"><span class="client-edit">Фото Кт35-1</span></div>
+					<div class="price-container"><div class="price-round"></div><span>В наличии</span></div>
+					<a class="h3" itemprop="name"><span class="client-edit">Концевая опора Кт35-1</span></a>
+					<div class="cont" itemprop="offers" itemscope itemtype="https://schema.org/Offer"><meta itemprop="priceCurrency" content="RUB"><meta itemprop="availability" content="https://schema.org/InStock"><div class="price client-edit" itemprop="price" content="184000">от 184 000 руб.</div><a class="button" data-popup-open="popup-call-back" data-popup-product-name="Концевая опора Кт35-1">Заказать</a></div>
+				</div>
+				<div class="product-section-slider-item" itemscope itemtype="https://schema.org/Product">
+					<div class="mast-img-placeholder"><span class="client-edit">Фото УАт35-1</span></div>
+					<div class="price-container"><div class="price-round"></div><span>В наличии</span></div>
+					<a class="h3" itemprop="name"><span class="client-edit">Угловая анкерная опора УАт35-1</span></a>
+					<div class="cont" itemprop="offers" itemscope itemtype="https://schema.org/Offer"><meta itemprop="priceCurrency" content="RUB"><meta itemprop="availability" content="https://schema.org/InStock"><div class="price client-edit" itemprop="price" content="283000">от 283 000 руб.</div><a class="button" data-popup-open="popup-call-back" data-popup-product-name="Угловая анкерная опора УАт35-1">Заказать</a></div>
+				</div>
+				<div class="product-section-slider-item" itemscope itemtype="https://schema.org/Product">
+					<div class="mast-img-placeholder"><span class="client-edit">Фото АУОт35-1</span></div>
+					<div class="price-container"><div class="price-round"></div><span>В наличии</span></div>
+					<a class="h3" itemprop="name"><span class="client-edit">Анкерная угловая ответвительная опора АУОт35-1</span></a>
+					<div class="cont" itemprop="offers" itemscope itemtype="https://schema.org/Offer"><meta itemprop="priceCurrency" content="RUB"><meta itemprop="availability" content="https://schema.org/InStock"><div class="price client-edit" itemprop="price" content="347000">от 347 000 руб.</div><a class="button" data-popup-open="popup-call-back" data-popup-product-name="Анкерная угловая ответвительная опора АУОт35-1">Заказать</a></div>
 				</div>
 			</div>
 			</div>
@@ -830,57 +901,55 @@
 			<!-- Цены -->
 			<div class="content-section">
 			<h2>Цены на опоры ВЛ 35 кВ серии 8.0662</h2>
-			<p>Решётчатые опоры 35 кВ тяжелее и материалоёмкее опор 6-10 кВ. Стоимость зависит от марки, наличия тросостойки и антикоррозийной защиты.</p>
+			<p><span class="client-edit">На стальные опоры 35 кВ расход металла больше, чем на опоры 6-10 кВ. Стоимость в основном зависит от марки и выбора антикоррозионной защиты.</span></p>
 			<div style="overflow-x: auto;">
-				<table><thead><tr><th>Марка</th><th>Тип</th><th>Тросостойка</th><th>Цена</th></tr></thead>
+				<table><thead><tr><th><span class="client-edit">Наименование опоры</span></th><th><span class="client-edit">Тип</span></th><th><span class="client-edit">Вес, тн</span></th><th><span class="client-edit">Цена за шт. (с НДС 22%)</span></th></tr></thead>
 				<tbody>
-					<tr><td>Пт35-1</td><td>Промежуточная</td><td>Нет</td><td>от 85 000 руб.</td></tr>
-					<tr><td>Пт35-1А</td><td>Промежуточная усиленная</td><td>Нет</td><td>от 95 000 руб.</td></tr>
-					<tr><td>Пт35-1т</td><td>Промежуточная</td><td>Да</td><td>от 105 000 руб.</td></tr>
-					<tr><td>Пт35-1тА</td><td>Промежуточная усиленная</td><td>Да</td><td>от 115 000 руб.</td></tr>
-					<tr><td>Пт35-2</td><td>Промежуточная</td><td>Нет</td><td>от 98 000 руб.</td></tr>
-					<tr><td>Пт35-2А</td><td>Промежуточная усиленная</td><td>Нет</td><td>от 110 000 руб.</td></tr>
-					<tr><td>Пт35-2т</td><td>Промежуточная</td><td>Да</td><td>от 120 000 руб.</td></tr>
-					<tr><td>Пт35-2тА</td><td>Промежуточная усиленная</td><td>Да</td><td>от 130 000 руб.</td></tr>
-					<tr><td>Пт35-3</td><td>Промежуточная</td><td>Нет</td><td>от 140 000 руб.</td></tr>
-					<tr><td>Ут35-*</td><td>Угловая</td><td>-</td><td>по запросу</td></tr>
-					<tr><td>Ат35-*</td><td>Анкерно-угловая</td><td>-</td><td>по запросу</td></tr>
+					<tr class="client-edit"><td>Пт35-1</td><td>Промежуточная</td><td>0,521</td><td>от 98 000 ₽</td></tr>
+					<tr class="client-edit"><td>Пт35-1т</td><td>Промежуточная</td><td>0,551</td><td>от 104 000 ₽</td></tr>
+					<tr class="client-edit"><td>Пт35-1А</td><td>Промежуточная</td><td>0,479</td><td>от 90 000 ₽</td></tr>
+					<tr class="client-edit"><td>Пт35-1тА</td><td>Промежуточная</td><td>0,514</td><td>от 97 000 ₽</td></tr>
+					<tr class="client-edit"><td>Пт35-2</td><td>Промежуточная</td><td>0,821</td><td>от 155 000 ₽</td></tr>
+					<tr class="client-edit"><td>Пт35-2т</td><td>Промежуточная</td><td>0,856</td><td>от 159 000 ₽</td></tr>
+					<tr class="client-edit"><td>Пт35-2А</td><td>Промежуточная</td><td>0,779</td><td>от 147 000 ₽</td></tr>
+					<tr class="client-edit"><td>Пт35-2тА</td><td>Промежуточная</td><td>0,814</td><td>от 154 000 ₽</td></tr>
+					<tr class="client-edit"><td>Пт35-3</td><td>Промежуточная</td><td>0,489</td><td>от 92 000 ₽</td></tr>
+					<tr class="client-edit"><td>Пт35-3А</td><td>Промежуточная</td><td>0,447</td><td>от 84 000 ₽</td></tr>
+					<tr class="client-edit"><td>Кт35-1</td><td>Концевая опора</td><td>0,974</td><td>от 184 000 ₽</td></tr>
+					<tr class="client-edit"><td>Кт35-1т</td><td>Концевая опора</td><td>1,019</td><td>от 192 000 ₽</td></tr>
+					<tr class="client-edit"><td>Кт35-1А</td><td>Концевая опора</td><td>0,962</td><td>от 182 000 ₽</td></tr>
+					<tr class="client-edit"><td>Кт35-1тА</td><td>Концевая опора</td><td>1,007</td><td>от 190 000 ₽</td></tr>
+					<tr class="client-edit"><td>УАт35-1</td><td>Угловая анкерная</td><td>1,497</td><td>от 283 000 ₽</td></tr>
+					<tr class="client-edit"><td>УАт35-1т</td><td>Угловая анкерная</td><td>1,542</td><td>от 291 000 ₽</td></tr>
+					<tr class="client-edit"><td>УАт35-1А</td><td>Угловая анкерная</td><td>1,478</td><td>от 279 000 ₽</td></tr>
+					<tr class="client-edit"><td>УАт35-1тА</td><td>Угловая анкерная</td><td>1,523</td><td>от 288 000 ₽</td></tr>
+					<tr class="client-edit"><td>АУОт35-1</td><td>Анкерно-угловая ответвительная</td><td>1,834</td><td>от 347 000 ₽</td></tr>
+					<tr class="client-edit"><td>АУОт35-1т</td><td>Анкерно-угловая ответвительная</td><td>1,881</td><td>от 358 000 ₽</td></tr>
+					<tr class="client-edit"><td>АУОт35-1А</td><td>Анкерно-угловая ответвительная</td><td>1,803</td><td>от 341 000 ₽</td></tr>
+					<tr class="client-edit"><td>АУОт35-1тА</td><td>Анкерно-угловая ответвительная</td><td>1,850</td><td>от 352 000 ₽</td></tr>
+					<tr class="client-edit"><td>ППт35-1</td><td>Промежуточная повышенная</td><td>0,521</td><td>от 98 000 ₽</td></tr>
+					<tr class="client-edit"><td>ППт35-1т</td><td>Промежуточная повышенная</td><td>0,556</td><td>от 105 000 ₽</td></tr>
+					<tr class="client-edit"><td>ППт35-1А</td><td>Промежуточная повышенная</td><td>0,479</td><td>от 90 000 ₽</td></tr>
+					<tr class="client-edit"><td>ППт35-1тА</td><td>Промежуточная повышенная</td><td>0,514</td><td>от 97 000 ₽</td></tr>
+					<tr class="client-edit"><td>ППт35-2</td><td>Промежуточная повышенная</td><td>0,821</td><td>от 155 000 ₽</td></tr>
+					<tr class="client-edit"><td>ППт35-2т</td><td>Промежуточная повышенная</td><td>0,856</td><td>от 162 000 ₽</td></tr>
+					<tr class="client-edit"><td>ППт35-2А</td><td>Промежуточная повышенная</td><td>0,779</td><td>от 147 000 ₽</td></tr>
+					<tr class="client-edit"><td>ППт35-2тА</td><td>Промежуточная повышенная</td><td>0,814</td><td>от 154 000 ₽</td></tr>
+					<tr class="client-edit"><td>ПКт35-1</td><td>Концевая повышенная</td><td>0,974</td><td>от 184 000 ₽</td></tr>
+					<tr class="client-edit"><td>ПКт35-1т</td><td>Концевая повышенная</td><td>1,019</td><td>от 192 000 ₽</td></tr>
+					<tr class="client-edit"><td>ПУАт35-1</td><td>Повышенная угловая анкерная</td><td>1,497</td><td>от 283 000 ₽</td></tr>
+					<tr class="client-edit"><td>ПУАт35-1т</td><td>Повышенная угловая анкерная</td><td>1,542</td><td>от 291 000 ₽</td></tr>
 				</tbody></table>
 			</div>
-			<p class="table-note">* Цена за опору без антикоррозийной обработки и доставки. Угловые и анкерные марки рассчитываются индивидуально.</p>
 
 			<h3>От чего зависит стоимость</h3>
 			<div class="price-factors">
-				<div class="price-factor"><h4>Марка и тип опоры</h4><p>Анкерно-угловые Ат35 тяжелее промежуточных Пт35 в 2-3 раза. Тросостойка добавляет 15-25% к массе</p></div>
-				<div class="price-factor"><h4>Марка стали</h4><p>09Г2С дороже Ст3сп на 15-25%. Для ХМАО обязательна по ПУЭ при температурах ниже -40 °C</p></div>
-				<div class="price-factor"><h4>Антикоррозийная защита</h4><p>Горячее цинкование по ГОСТ 9.307 добавляет 20-30% к стоимости. Срок службы 40-50 лет без обслуживания</p></div>
-				<div class="price-factor"><h4>Комплектация</h4><p>Стойка, траверсы, раскосы, метизы - базовый набор. Фундаменты, тросостойки, оттяжки - отдельно</p></div>
-				<div class="price-factor"><h4>Объём партии</h4><p>От 10 опор одной марки - дешевле за штуку. Серийное производство снижает долю оснастки</p></div>
-				<div class="price-factor"><h4>Срочность</h4><p>Стандарт 20-30 рабочих дней. Решётчатые опоры 35 кВ сложнее в сборке, ускоренное производство дороже</p></div>
-			</div>
-			</div>
-
-			<!-- Тех. характеристики -->
-			<div class="content-section">
-			<h2>Технические характеристики</h2>
-			<p>Основные параметры опор ВЛ 35 кВ серии 8.0662:</p>
-			<div style="overflow-x: auto;">
-			<table><tbody>
-				<tr><th>Серия</th><td>8.0662</td></tr>
-				<tr><th>Класс напряжения</th><td>35 кВ</td></tr>
-				<tr><th>Тип конструкции</th><td>Решётчатые (из стального уголка)</td></tr>
-				<tr><th>Марки стали</th><td>09Г2С (до -65 °C), С345, Ст3сп (умеренный климат)</td></tr>
-				<tr><th>Высота опор</th><td>от 14 до 22 м</td></tr>
-				<tr><th>Масса</th><td>от 800 до 2 800 кг</td></tr>
-				<tr><th>Ветровой район</th><td>До VII включительно (по СП 20.13330)</td></tr>
-				<tr><th>Район по гололёду</th><td>До V включительно</td></tr>
-				<tr><th>Расчётный пролёт</th><td>150-250 м (зависит от марки провода и ветрового района)</td></tr>
-				<tr><th>Типы соединений</th><td>Болтовые (ГОСТ 7798, ГОСТ 7805)</td></tr>
-				<tr><th>Грозозащита</th><td>Тросостойка для грозозащитного троса (марки с индексом «т»)</td></tr>
-				<tr><th>Нормативы</th><td>ПУЭ, СП 20.13330, ГОСТ 32947, ГОСТ 23118, ГОСТ 9.307</td></tr>
-				<tr><th>Антикоррозийная защита</th><td>Горячее цинкование (Sa 2.5), грунт + эмаль</td></tr>
-				<tr><th>Срок службы</th><td>Не менее 40 лет при цинковании, 20-25 лет при окраске</td></tr>
-			</tbody></table>
+				<div class="price-factor client-edit"><h4>Марка и тип опоры</h4><p>Анкерно-угловые опоры тяжелее промежуточных в 1,5-2,5 раза. Тросостойка добавляет 15-25% к массе.</p></div>
+				<div class="price-factor client-edit"><h4>Марка стали</h4><p>09Г2С дороже Ст3сп на 15-25%. Для ХМАО при температурах ниже -40 °C обязательна хладостойкая сталь (09Г2С — рекомендуемая).</p></div>
+				<div class="price-factor client-edit"><h4>Антикоррозионная защита</h4><p>Холодное цинкование (цинконаполненные составы) добавляет 10-20% к стоимости. Срок службы — до 30 лет.</p></div>
+				<div class="price-factor client-edit"><h4>Комплектация</h4><p>Стойка, траверсы, раскосы, метизы — базовый набор. Фундаменты, тросостойки, оттяжки — отдельно.</p></div>
+				<div class="price-factor client-edit"><h4>Объём партии</h4><p>От 10 опор одной марки — дешевле за штуку. Серийное производство снижает долю оснастки.</p></div>
+				<div class="price-factor client-edit"><h4>Срочность</h4><p>Стандарт 20-30 рабочих дней. Решётчатые опоры 35 кВ сложнее в сборке, ускоренное производство дороже.</p></div>
 			</div>
 			</div>
 
@@ -894,7 +963,7 @@
 				<div class="use-card"><div class="use-card-icon">icon</div><div><h4>Нефтеперекачивающие станции</h4><p>Линии 35 кВ обеспечивают питание НПС магистральных нефтепроводов в ХМАО</p></div></div>
 				<div class="use-card"><div class="use-card-icon">icon</div><div><h4>Промышленные предприятия</h4><p>Собственные подстанции заводов и комбинатов подключаются по линиям 35 кВ</p></div></div>
 				<div class="use-card"><div class="use-card-icon">icon</div><div><h4>Межпоселковые сети</h4><p>Связь между населёнными пунктами на расстояниях 10-30 км в Западной Сибири</p></div></div>
-				<div class="use-card"><div class="use-card-icon">icon</div><div><h4>Замена при реконструкции</h4><p>Стальные решётчатые опоры заменяют отработавшие ЖБ и деревянные на существующих ВЛ 35 кВ</p></div></div>
+				<div class="use-card client-edit"><div class="use-card-icon">icon</div><div><h4>Замена при реконструкции</h4><p>Стальные опоры заменяют отработавшие ЖБ и деревянные на существующих ВЛ 35 кВ</p></div></div>
 			</div>
 			<div class="callout">
 				<p>Линии 35 кВ в ХМАО проектируются с грозозащитным тросом. Для таких участков выбирайте марки с индексом <strong>«т»</strong> - Пт35-1т, Пт35-2т и другие. Тросостойка встроена в конструкцию опоры.</p>
@@ -904,7 +973,7 @@
 			<!-- Марки опор -->
 			<div class="content-section">
 			<h2>Марки опор серии 8.0662</h2>
-			<p>Серия включает промежуточные, угловые и анкерно-угловые опоры. Марки с индексом «А» - усиленные для повышенных ветровых и гололёдных нагрузок. Индекс «т» - наличие тросостойки для грозозащитного троса.</p>
+			<p><span class="client-edit">По серии 8.0662 изготавливаем все 13 типов опор: промежуточные (Пт35-1, Пт35-2, Пт35-3 с усиленными версиями), концевые (Кт35-1), угловые анкерные (УАт35-1) и анкерные угловые ответвительные (АУОт35-1).</span></p>
 
 			<h3>Промежуточные опоры (Пт35)</h3>
 			<p>Устанавливаются на прямых участках трассы. Провод крепится в поддерживающих зажимах - при обрыве не создаёт продольных нагрузок на стойку.</p>
@@ -917,37 +986,36 @@
 			</div>
 
 			<h3>Угловые и анкерно-угловые опоры</h3>
-			<p>Угловые опоры (Ут35) ставят на поворотах трассы. Анкерно-угловые (Ат35) воспринимают продольные нагрузки от тяжения провода - их располагают в начале и конце линии, на подходах к подстанциям, на пересечениях с другими ВЛ и автодорогами.</p>
 			<div class="mast-types-grid">
-				<div class="mast-type-card"><div class="mast-img-placeholder">Фото Ут35</div><div class="mast-card-body"><h4>Ут35 - угловые</h4><p>Повороты трассы от 15° до 60°. Провод в поддерживающих зажимах с ограниченным вылетом.</p></div></div>
-				<div class="mast-type-card"><div class="mast-img-placeholder">Фото Ат35</div><div class="mast-card-body"><h4>Ат35 - анкерно-угловые (концевые)</h4><p>Начало и конец линии (концевые), подходы к подстанциям, пересечения с ВЛ и дорогами. Провод в натяжных зажимах.</p></div></div>
+				<div class="mast-type-card client-edit"><div class="mast-img-placeholder">Фото УАт35-1</div><div class="mast-card-body"><h4>Угловые анкерные опоры</h4><p>Угловые анкерные опоры (УАт35-1) — ставятся на поворотах трассы. Провод в натяжных зажимах, опора воспринимает полное тяжение.</p></div></div>
+				<div class="mast-type-card client-edit"><div class="mast-img-placeholder">Фото Кт35-1</div><div class="mast-card-body"><h4>Концевые опоры</h4><p>Концевые опоры (Кт35-1) — начало и конец линии, подходы к подстанциям, пересечения с ВЛ и дорогами. Провод в натяжных зажимах.</p></div></div>
+				<div class="mast-type-card client-edit"><div class="mast-img-placeholder">Фото АУОт35-1</div><div class="mast-card-body"><h4>Анкерные угловые ответвительные опоры</h4><p>Анкерные угловые ответвительные опоры (АУОт35-1) — для ответвлений от магистральной линии.</p></div></div>
 			</div>
 			</div>
 
 			<!-- Конструкция -->
 			<div class="content-section">
-			<h2>Конструкция решётчатой опоры 35 кВ</h2>
-			<p>Решётчатая опора собирается из стального уголка на болтовых соединениях. Элементы перевозят россыпью и собирают опору прямо на месте установки - без крана и тяжёлой техники.</p>
+			<h2><span class="client-edit">Конструкция стальной опоры 35 кВ (серия 8.0662)</span></h2>
+			<p><span class="client-edit">Опоры серии 8.0662 изготавливаются из стальных труб (бурильных и обсадных) с решётчатыми раскосами на болтовых соединениях. Элементы перевозят россыпью и собирают опору прямо на месте установки — без крана и тяжёлой техники.</span></p>
 			<ul>
-				<li><strong>Стойка (ствол)</strong>Пространственная решётчатая конструкция из 4 поясных уголков и раскосов. Сечение сужается от основания к вершине.</li>
-				<li><strong>Траверсы</strong>Горизонтальные конструкции для крепления изоляторов и провода АС-70/11, АС-95/16 или других марок. На 35 кВ используются штыревые или подвесные изоляторы.</li>
-				<li><strong>Тросостойка</strong>Верхняя надставка для крепления грозозащитного троса. Есть только у марок с индексом «т». Увеличивает общую высоту на 1,5-2 м.</li>
-				<li><strong>Раскосы и распорки</strong>Диагональные и горизонтальные элементы решётки. Придают стойке пространственную жёсткость при ветровых нагрузках.</li>
-				<li><strong>Фундамент</strong>Грибовидные или свайные фундаменты по серии 3.407.9. В вечномёрзлых грунтах ХМАО применяют сваи с термостабилизаторами.</li>
-				<li><strong>Метизы</strong>Болты, гайки, шайбы по ГОСТ 7798 и ГОСТ 7805. Класс прочности 5.8 или 8.8. Оцинкованные для опор с горячим цинкованием.</li>
+				<li class="client-edit"><strong>Стойка (ствол)</strong>Пространственная конструкция из трубчатых поясов и решётчатых раскосов. Сечение сужается от основания к вершине.</li>
+				<li class="client-edit"><strong>Траверсы</strong>Горизонтальные конструкции для крепления изолирующих подвесок и провода АС-70/11, АС-95/16 или других марок. По серии 8.0662 используются подвесные изолирующие подвески (поддерживающие и натяжные).</li>
+				<li class="client-edit"><strong>Тросостойка</strong>Верхняя надставка для крепления грозозащитного троса. Есть только у марок с индексом «т». Увеличивает общую высоту на 1,5-2 м.</li>
+				<li class="client-edit"><strong>Раскосы и распорки</strong>Диагональные и горизонтальные элементы решётки. Придают стойке пространственную жёсткость при ветровых нагрузках.</li>
+				<li class="client-edit"><strong>Метизы</strong>Болты, гайки, шайбы. Класс прочности 5.8 или 8.8.</li>
 			</ul>
 			</div>
 
 			<!-- Преимущества -->
 			<div class="content-section">
 			<h2>Почему заказывают опоры в «Сварсиб»</h2>
-			<p>Мы изготавливаем решётчатые опоры 35 кВ полным комплектом - со стойками, траверсами и метизами - на одной площадке в Сургуте.</p>
+			<p><span class="client-edit">Мы изготавливаем стальные опоры 35 кВ полным комплектом - со стойками, траверсами и метизами - на одной площадке в Сургуте.</span></p>
 			<div class="advantages-grid">
-				<div class="advantage-card"><div class="advantage-num">1</div><h3>Хладостойкая сталь 09Г2С</h3><p>Работает при -65 °C. Обязательна по ПУЭ для объектов ХМАО и Западной Сибири.</p></div>
+				<div class="advantage-card client-edit"><div class="advantage-num">1</div><h3>Хладостойкая сталь 09Г2С</h3><p>09Г2С — низколегированная хладостойкая сталь, широко применяемая для металлоконструкций в Сибири и на Крайнем Севере. Работает до -60 °C.</p></div>
 				<div class="advantage-card"><div class="advantage-num">2</div><h3>Все марки серии 8.0662</h3><p>Промежуточные, угловые, анкерно-угловые. С тросостойкой и без. Одна площадка - один поставщик.</p></div>
-				<div class="advantage-card"><div class="advantage-num">3</div><h3>Горячее цинкование</h3><p>Подготовка Sa 2.5, покрытие от 80 мкм по ГОСТ 9.307. 40-50 лет без обслуживания в условиях Сибири.</p></div>
-				<div class="advantage-card"><div class="advantage-num">4</div><h3>Своё производство</h3><p>Лазерная и плазменная резка, сверление на ЧПУ, механизированная сварка. Контроль по ГОСТ 23118.</p></div>
-				<div class="advantage-card"><div class="advantage-num">5</div><h3>Фундаменты в комплекте</h3><p>Серии 3.407.9-146.1 и 3.407.9-146.3. Свайные фундаменты для вечномёрзлых грунтов.</p></div>
+				<div class="advantage-card client-edit"><div class="advantage-num">3</div><h3>Антикоррозийная защита</h3><p>Виды антикоррозийной защиты на выбор: покрасочные системы: Эпоксидные, Полиуретановые, Акриловые системы, Алкидные системы (грунтовка ГФ-021 и эмаль ПФ-115 ) и Цинконаполненные (холодное цинкование).</p></div>
+				<div class="advantage-card client-edit"><div class="advantage-num">4</div><h3>Собственное производство</h3><p>Современное оборудование: лазерная резка профилей, роботизированная сварка для стабильного качества швов и полуавтоматическая сварка для сложных узлов.</p></div>
+				<div class="advantage-card client-edit"><div class="advantage-num">5</div><h3>Сваи в комплекте</h3><p>В комплекте с опорами поставляются сваи собственного производства.</p></div>
 				<div class="advantage-card"><div class="advantage-num">6</div><h3>Доставка по ХМАО и ЯНАО</h3><p>Решётчатые опоры перевозятся россыпью - больше элементов на одну машину, дешевле логистика.</p></div>
 			</div>
 			</div>
@@ -957,13 +1025,12 @@
 			<h2>Как мы изготавливаем опоры</h2>
 			<p>От получения чертежей КМ до отгрузки готовых опор проходит 20-30 рабочих дней.</p>
 			<div class="process-steps">
-				<div class="process-step"><h3>Получение КМ / ТЗ</h3><p>Чертежи КМ, спецификации или задание с марками, количеством и ветровым районом.</p></div>
-				<div class="process-step"><h3>Проверка и расчёт</h3><p>Ветровой район, район по гололёду, марка стали, антикоррозийная защита. Проверка по СП 20.13330.</p></div>
-				<div class="process-step"><h3>Закупка проката</h3><p>Уголок 50x50 - 125x125 из 09Г2С или С345 с сертификатами 3.1 по EN 10204.</p></div>
+				<div class="process-step client-edit"><h3>Получение КМ / ТЗ</h3><p>Чертежи КМ, спецификации или задание с марками и количеством.</p></div>
+				<div class="process-step client-edit"><h3>Закупка проката</h3><p>Для производства опор, мы закупаем металлопрокат напрямую у производителей. Всё сырьё — с сертификатами соответствия маркам 09Г2С, С345, Ст3сп.</p></div>
 				<div class="process-step"><h3>Резка и сверление</h3><p>Рубка уголка, лазерная резка фасонок, сверление отверстий на ЧПУ по шаблонам серии.</p></div>
-				<div class="process-step"><h3>Сварка траверс</h3><p>Механизированная сварка траверс и тросостоек. Контроль сварных швов по ГОСТ 23118.</p></div>
+				<div class="process-step client-edit"><h3>Сварка</h3><p>Роботизированная сварка для стабильного качества швов и полуавтоматическая сварка для сложных узлов, контроль сварочных швов.</p></div>
 				<div class="process-step"><h3>Контрольная сборка</h3><p>Сборка контрольной опоры для проверки стыковки всех элементов и отверстий.</p></div>
-				<div class="process-step"><h3>Антикоррозийная защита</h3><p>Дробеструй Sa 2.5, горячее цинкование по ГОСТ 9.307 или грунт + эмаль (ГФ-021 + ПФ-115).</p></div>
+				<div class="process-step client-edit"><h3>Антикоррозийная защита</h3><p>Дробеструйная очистка и виды антикоррозийной защиты на выбор: покрасочные системы: Эпоксидные, Полиуретановые, Акриловые системы, Алкидные системы (грунтовка ГФ-021 и эмаль ПФ-115 ) и Цинконаполненные (холодное цинкование).</p></div>
 				<div class="process-step"><h3>Маркировка и отгрузка</h3><p>Каждый элемент маркируется. Упаковка в пакеты. Доставка по ХМАО и другим регионам.</p></div>
 			</div>
 			</div>
@@ -972,14 +1039,9 @@
 			<div class="content-section">
 			<h2>Частые вопросы</h2>
 			<div class="faq-list">
-				<details><summary>Чем опоры 35 кВ отличаются от 6-10 кВ?</summary><div class="faq-answer">Опоры ВЛ 35 кВ крупнее: высота 14-22 м (против 10-16 м), масса 800-2 800 кг (против 210-850 кг). Конструкция решётчатая из стального уголка - собирается на болтах. Опоры 6-10 кВ чаще стоечные (из одной трубы или профиля). На 35 кВ требуются большие габаритные расстояния между проводами и до земли.</div></details>
 				<details><summary>Что означают индексы «А» и «т» в маркировке?</summary><div class="faq-answer">«А» - усиленная марка для повышенных ветровых и гололёдных нагрузок. Пт35-1А тяжелее Пт35-1 за счёт увеличенных сечений уголка. «т» - наличие тросостойки для грозозащитного троса. Пт35-1т выше базовой на 1,5-2 м. «тА» - усиленная с тросостойкой.</div></details>
 				<details><summary>Зачем нужен грозозащитный трос?</summary><div class="faq-answer">Грозозащитный трос защищает провода от прямых ударов молнии. Подвешивается выше фазных проводов на тросостойке. По ПУЭ обязателен для ВЛ 35 кВ на подходах к подстанциям, а для линий в ХМАО с высокой грозовой активностью проектировщик может назначить трос на всём протяжении.</div></details>
-				<details><summary>Почему решётчатые, а не многогранные?</summary><div class="faq-answer">Серия 8.0662 разработана для решётчатых опор из уголка. Их преимущество - перевозка россыпью (на 1 машину помещается больше элементов) и сборка на месте без крана. Многогранные стойки компактнее и эстетичнее, но перевозятся целиком и требуют крана для монтажа. Выбор определяет проект.</div></details>
 				<details><summary>Из какой стали делают опоры для ХМАО?</summary><div class="faq-answer">09Г2С - хладостойкая сталь с ударной вязкостью KCV при -65 °C. Выбор марки определяется расчётной температурой наружного воздуха по СП 131.13330. Для Сургута это -49 °C, что требует 09Г2С. С345 допускается при расчётной температуре выше -40 °C. Ст3сп - только для умеренного климата.</div></details>
-				<details><summary>Какой фундамент нужен для решётчатой опоры?</summary><div class="faq-answer">Зависит от грунтов. В обычных грунтах - грибовидные фундаменты серии 3.407.9-146.1. В вечномёрзлых грунтах ХМАО - свайные фундаменты с термостабилизаторами. Мы изготавливаем оба типа и поставляем вместе с опорами.</div></details>
-				<details><summary>Можно ли собрать решётчатую опору без крана?</summary><div class="faq-answer">Да, это одно из преимуществ решётчатых конструкций. Элементы весят 10-40 кг каждый. Опора собирается на земле в горизонтальном положении, затем поднимается «падающей стрелой» или трактором. На удалённых площадках ХМАО это проще, чем доставлять кран.</div></details>
-				<details><summary>Какой вид антикоррозийной защиты выбрать?</summary><div class="faq-answer">Горячее цинкование по ГОСТ 9.307 - 40-50 лет без обслуживания. Подготовка поверхности Sa 2.5, толщина покрытия от 80 мкм. Грунт ГФ-021 + эмаль ПФ-115 дешевле, но требует обновления каждые 8-12 лет. Для труднодоступных трасс ХМАО цинкование выгоднее за счёт отсутствия обслуживания.</div></details>
 			</div>
 			</div>
 
@@ -1140,7 +1202,7 @@
 			{
 				"@type": "Product",
 				"name": "Опоры ВЛ 35 кВ серии 8.0662",
-				"description": "Стальные решётчатые опоры ВЛ 35 кВ по серии 8.0662. Промежуточные, угловые, анкерно-угловые. Сталь 09Г2С до -65 °C. Горячее цинкование по ГОСТ 9.307.",
+				"description": "Стальные опоры ВЛ 35 кВ по серии 8.0662. Промежуточные, концевые, угловые анкерные и анкерные угловые ответвительные опоры. Сталь 09Г2С.",
 				"brand": {
 					"@type": "Brand",
 					"name": "Сварсиб"
@@ -1152,10 +1214,10 @@
 				"offers": {
 					"@type": "AggregateOffer",
 					"priceCurrency": "RUB",
-					"lowPrice": "85000",
-					"highPrice": "280000",
+					"lowPrice": "84000",
+					"highPrice": "358000",
 					"availability": "https://schema.org/InStock",
-					"offerCount": "9",
+					"offerCount": "34",
 					"areaServed": {
 						"@type": "Country",
 						"name": "Россия"
@@ -1168,11 +1230,6 @@
 				"mainEntity": [
 					{
 						"@type": "Question",
-						"name": "Чем опоры 35 кВ отличаются от 6-10 кВ?",
-						"acceptedAnswer": {"@type": "Answer", "text": "Опоры ВЛ 35 кВ крупнее: высота 14-22 м, масса 800-2 800 кг. Конструкция решётчатая из стального уголка на болтах. Опоры 6-10 кВ чаще стоечные. На 35 кВ требуются большие габаритные расстояния."}
-					},
-					{
-						"@type": "Question",
 						"name": "Что означают индексы «А» и «т» в маркировке?",
 						"acceptedAnswer": {"@type": "Answer", "text": "«А» - усиленная для повышенных ветровых и гололёдных нагрузок. «т» - наличие тросостойки для грозозащитного троса. «тА» - усиленная с тросостойкой."}
 					},
@@ -1183,28 +1240,8 @@
 					},
 					{
 						"@type": "Question",
-						"name": "Почему решётчатые, а не многогранные?",
-						"acceptedAnswer": {"@type": "Answer", "text": "Перевозка россыпью - больше элементов на машину. Сборка на месте без крана. Многогранные компактнее, но требуют крана. Выбор определяет проект."}
-					},
-					{
-						"@type": "Question",
 						"name": "Из какой стали делают опоры для ХМАО?",
 						"acceptedAnswer": {"@type": "Answer", "text": "09Г2С - хладостойкая сталь с ударной вязкостью при -65 °C. Обязательна по ПУЭ для Западной Сибири. С345 допускается при температуре выше -40 °C."}
-					},
-					{
-						"@type": "Question",
-						"name": "Какой фундамент нужен для решётчатой опоры?",
-						"acceptedAnswer": {"@type": "Answer", "text": "В обычных грунтах - грибовидные серии 3.407.9-146.1. В вечномёрзлых грунтах ХМАО - свайные с термостабилизаторами. Сварсиб изготавливает оба типа."}
-					},
-					{
-						"@type": "Question",
-						"name": "Можно ли собрать решётчатую опору без крана?",
-						"acceptedAnswer": {"@type": "Answer", "text": "Да. Элементы весят 10-40 кг. Опора собирается горизонтально, поднимается «падающей стрелой» или трактором. На удалённых площадках ХМАО это проще крана."}
-					},
-					{
-						"@type": "Question",
-						"name": "Какой вид антикоррозийной защиты выбрать?",
-						"acceptedAnswer": {"@type": "Answer", "text": "Горячее цинкование по ГОСТ 9.307 - 40-50 лет без обслуживания. Грунт + эмаль дешевле, но обновляется каждые 8-12 лет. Для трасс ХМАО цинкование выгоднее."}
 					}
 				]
 			}
