@@ -295,6 +295,19 @@
 		.page-content table:has(thead) tbody td:last-child {
 			white-space: nowrap;
 		}
+		.price-table {
+			table-layout: fixed !important;
+			min-width: 1100px;
+		}
+		.price-table th:nth-child(1), .price-table td:nth-child(1) { width: 16%; }
+		.price-table th:nth-child(2), .price-table td:nth-child(2) { width: 10%; }
+		.price-table th:nth-child(3), .price-table td:nth-child(3) { width: 8%; }
+		.price-table th:nth-child(4), .price-table td:nth-child(4) { width: 34%; }
+		.price-table th:nth-child(5), .price-table td:nth-child(5) { width: 12%; }
+		.price-table th:nth-child(6), .price-table td:nth-child(6) { width: 20%; }
+		.price-table thead th:nth-child(6) {
+			white-space: normal;
+		}
 
 		/* === ГАЛЕРЕЯ === */
 		.gallery-grid {
@@ -789,7 +802,7 @@
 			<h3 class="client-edit">Стальные мачты и молниеотводы по серии 3.407.9-172</h3>
 			<p><span class="client-edit">Ниже приведены типовые конструкции, которые мы изготавливаем.</span></p>
 			<div style="overflow-x: auto;">
-				<table>
+				<table class="price-table">
 					<thead>
 						<tr>
 							<th>Тип конструкции</th>
