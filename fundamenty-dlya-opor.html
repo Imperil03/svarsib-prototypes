@@ -4,15 +4,15 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 	<meta name="robots" content="index, follow" />
-	<meta name="keywords" content="фундаменты для опор, фундаменты ВЛ, серия 3.407.9-146.1, серия 3.407.9-146.3, свайные фундаменты, грибовидные фундаменты, 09Г2С, Сургут" />
-	<meta name="description" content="Производство стальных фундаментов для опор ВЛ 6-10 кВ и 35 кВ в Сургуте. Свайные серии 3.407.9-146.1 и грибовидные 3.407.9-146.3. Сталь 09Г2С, горячее цинкование. Цены от 12 000 руб." />
+	<meta name="keywords" content="свайные фундаменты для опор, фундаменты ВЛ 35-500 кВ, серия 3.407.9-146.1, серия 3.407.9-146.3, металлические элементы фундаментов, 09Г2С, Сургут" />
+	<meta name="description" content="Производство конструкций свайных фундаментов для опор 35-500 кВ в Сургуте. Серии 3.407.9-146.1 и 3.407.9-146.3. Сталь 09Г2С, цены от 15 000 руб." />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<meta name="theme-color" content="#ffffff" />
 
 	<link rel="canonical" href="https://svarsib.ru/metallokonstruktsii/metallokonstruktsii-zdaniy-i-sooruzheniy/" />
 	<link href="https://svarsib.ru/bitrix/cache/css/s1/main/template_c0b04d01dfc687371a2eb73a1aafd006/template_c0b04d01dfc687371a2eb73a1aafd006_v1.css?1776170885235491" type="text/css" rel="stylesheet" data-template-style="true"/>
 
-	<title>Фундаменты для опор ВЛ - производство | Сварсиб, Сургут</title>
+	<title>Конструкции свайных фундаментов для опор 35-500 кВ | Сварсиб, Сургут</title>
 
 	<style>
 		/* === ШРИФТЫ (локальные файлы) === */
@@ -121,6 +121,29 @@
 			color: #333;
 		}
 		.page-content p:last-child { margin-bottom: 0; }
+
+		.client-edit {
+			background: #fff3a3;
+			box-decoration-break: clone;
+			-webkit-box-decoration-break: clone;
+			padding: 0 3px;
+			border-radius: 3px;
+		}
+		.mobile-break { display: none; }
+		.subcategory-card.client-edit h3,
+		.subcategory-card.client-edit p,
+		.subcategory-card.client-edit .sub-meta,
+		.foundation-detail-card.client-edit h3,
+		.foundation-detail-card.client-edit h4,
+		.foundation-detail-card.client-edit p,
+		.use-card.client-edit h4,
+		.use-card.client-edit p,
+		.advantage-card.client-edit h3,
+		.advantage-card.client-edit p,
+		details.client-edit summary,
+		details.client-edit .faq-answer {
+			background: #fff3a3 !important;
+		}
 
 		.page-content ul {
 			padding-left: 0;
@@ -460,6 +483,36 @@
 			line-height: 150%;
 		}
 
+		.foundation-detail-grid {
+			display: grid;
+			grid-template-columns: repeat(3, 1fr);
+			gap: 16px;
+			margin: 18px 0 24px;
+		}
+		.foundation-detail-card {
+			background: #fff;
+			border: 1px solid #E4E4E7;
+			border-radius: 14px;
+			padding: 20px;
+		}
+		.foundation-detail-card h3,
+		.foundation-detail-card h4 {
+			margin: 0 0 8px !important;
+			font-size: 16px !important;
+			line-height: 130% !important;
+		}
+		.foundation-detail-card p {
+			font-size: 14px;
+			line-height: 150%;
+			color: #555;
+			margin: 0;
+		}
+		.foundation-lead {
+			font-size: 16px;
+			color: #333;
+			margin-bottom: 18px;
+		}
+
 		/* === ПОДСКАЗКА ПОД ТАБЛИЦЕЙ === */
 		.table-note {
 			font-size: 13px;
@@ -547,6 +600,9 @@
 			gap: 20px;
 			margin: 20px 0 0;
 		}
+		.subcategory-grid.foundation-series-grid {
+			grid-template-columns: repeat(2, 1fr);
+		}
 		.subcategory-card {
 			background: #fff;
 			border: 1px solid #E4E4E7;
@@ -592,7 +648,8 @@
 			font-weight: 500;
 		}
 		@media (max-width: 720px) {
-			.subcategory-grid { grid-template-columns: 1fr; }
+			.subcategory-grid,
+			.subcategory-grid.foundation-series-grid { grid-template-columns: 1fr; }
 		}
 
 		/* === RESPONSIVE === */
@@ -600,11 +657,64 @@
 			.advantages-grid, .price-factors { grid-template-columns: repeat(2, 1fr); }
 			.process-steps { grid-template-columns: repeat(2, 1fr); }
 			.use-cards { grid-template-columns: 1fr; }
+			.foundation-detail-grid { grid-template-columns: 1fr; }
 		}
 		@media (max-width: 720px) {
 			.gallery-grid { grid-template-columns: repeat(2, 1fr); }
 			.page-content table { font-size: 14px; }
 			.page-content table th, .page-content table td { padding: 10px 14px; }
+			.mobile-break { display: block; }
+			h1.title {
+				width: calc(100vw - 48px) !important;
+				max-width: calc(100vw - 48px);
+				margin-left: 24px !important;
+				margin-right: 24px !important;
+				white-space: normal !important;
+				overflow: visible !important;
+				overflow-wrap: anywhere;
+			}
+			main {
+				overflow-x: hidden;
+			}
+			.product-section-content-section,
+			.product-section-content,
+			.page-content {
+				width: calc(100vw - 48px) !important;
+				max-width: calc(100vw - 48px) !important;
+				min-width: 0 !important;
+			}
+			.product-section-content {
+				margin-left: auto !important;
+				margin-right: auto !important;
+			}
+			.page-content,
+			.page-content h2,
+			.page-content h3,
+			.page-content h4,
+			.page-content p,
+			.subcategory-card h3,
+			.subcategory-card p,
+			.foundation-detail-card h3,
+			.foundation-detail-card h4,
+			.foundation-detail-card p {
+				white-space: normal !important;
+				overflow: visible !important;
+				overflow-wrap: anywhere;
+			}
+			.page-content h2,
+			.page-content h3,
+			.page-content h4,
+			.page-content p {
+				width: 100% !important;
+				max-width: calc(100vw - 48px) !important;
+			}
+			.subcategory-card h3,
+			.subcategory-card p,
+			.foundation-detail-card h3,
+			.foundation-detail-card h4,
+			.foundation-detail-card p {
+				max-width: 100% !important;
+			}
 		}
 		@media (max-width: 500px) {
 			.page-content h2 { font-size: 22px; }
@@ -672,7 +782,7 @@
 			</ul>
 		</div>
 
-		<h1 class="title b">Фундаменты для опор</h1>
+		<h1 class="title b"><span class="client-edit">Конструкции свайных фундаментов</span><br class="mobile-break"><span class="client-edit">для опор 35-500 кВ</span></h1>
 
 		<section class="padding flex product-section-content-section">
 		<div class="def_div product-section-content">
@@ -700,100 +810,100 @@
 
 			<!-- Lead -->
 			<div class="content-section">
-			<p>Завод «Сварсиб» в Сургуте изготавливает стальные фундаменты под опоры воздушных линий электропередачи 6-10 кВ и 35 кВ. Свайные фундаменты серии 3.407.9-146.1 и грибовидные серии 3.407.9-146.3. Сталь 09Г2С для работы при температурах до -70 °C, горячее цинкование по ГОСТ 9.307. Цены от 12 000 руб.</p>
+			<p><span class="client-edit">Завод «Сварсиб» в Сургуте изготавливает стальные элементы свайных фундаментов под опоры ВЛ<br class="mobile-break">35-500 кВ.</span></p>
+			<p><span class="client-edit">Свайные фундаменты серии 3.407.9-146.1 и металлические элементы серии 3.407.9-146.3.</span></p>
+			<p><span class="client-edit">Сталь 09Г2С для работы при температурах до -70 °C. Цены от 15 000 руб.</span></p>
 			</div>
 
 			<!-- Подразделы -->
 			<div class="content-section">
 			<h2>Серии фундаментов в каталоге</h2>
-			<p>Две серии для разных классов напряжения и типов опор. Серия 146.1 - под стоечные опоры 6-10 кВ. Серия 146.3 - под решётчатые опоры 35 кВ.</p>
-			<div class="subcategory-grid" style="grid-template-columns: repeat(2, 1fr);">
-				<a class="subcategory-card" href="https://svarsib.ru/metallokonstruktsii/metallokonstruktsii-zdaniy-i-sooruzheniy/fundamenty-3-407-9-146-1/">
+			<p><span class="client-edit">Две серии стальных элементов для свайных фундаментов под опоры ВЛ<br class="mobile-break">35-500 кВ.</span></p>
+			<div class="subcategory-grid foundation-series-grid">
+				<a class="subcategory-card client-edit" href="https://svarsib.ru/metallokonstruktsii/metallokonstruktsii-zdaniy-i-sooruzheniy/fundamenty-3-407-9-146-1/">
 					<div class="sub-img">Фото свайного фундамента</div>
 					<div class="sub-body">
-						<h3>Серия 3.407.9-146.1</h3>
-						<p>Свайные фундаменты под опоры ВЛ 6-10 кВ серий 4.0639 и 25.0074. Односвайные, двухсвайные, четырёхсвайные. Ростверк + забивные сваи.</p>
-						<span class="sub-meta">от 12 000 руб. / 3 типа</span>
+						<h3>Свайные фундаменты серия 3.407.9-146, выпуск 1</h3>
+						<p>Стальные элементы для свайных фундаментов под опоры ВЛ<br class="mobile-break">35-500 кВ. Односвайные, двухсвайные и четырёхсвайные конструкции.</p>
+						<span class="sub-meta">от 15 000 руб.</span>
 					</div>
 				</a>
-				<a class="subcategory-card" href="https://svarsib.ru/metallokonstruktsii/metallokonstruktsii-zdaniy-i-sooruzheniy/fundamenty-3-407-9-146-3/">
-					<div class="sub-img">Фото грибовидного фундамента</div>
+				<a class="subcategory-card client-edit" href="https://svarsib.ru/metallokonstruktsii/metallokonstruktsii-zdaniy-i-sooruzheniy/fundamenty-3-407-9-146-3/">
+					<div class="sub-img">Фото металлических элементов</div>
 					<div class="sub-body">
-						<h3>Серия 3.407.9-146.3</h3>
-						<p>Грибовидные фундаменты под решётчатые опоры ВЛ 35 кВ серии 8.0662. 9 марок Б35 с разной глубиной заложения. Цельносварная конструкция.</p>
-						<span class="sub-meta">от 25 000 руб. / 9 марок</span>
+						<h3>Металлические элементы серия 3.407.9-146, выпуск 3</h3>
+						<p>Металлические элементы для создания свайных фундаментов под стальные опоры ЛЭП 35-500 кВ.</p>
+						<span class="sub-meta">от 24 000 руб.</span>
 					</div>
 				</a>
-			</div>
-			</div>
-
-			<!-- Сравнение -->
-			<div class="content-section">
-			<h2>Сравнение серий фундаментов</h2>
-			<p>Серии отличаются конструкцией, способом монтажа и совместимыми опорами:</p>
-			<div style="overflow-x: auto;">
-				<table><thead><tr><th>Параметр</th><th>3.407.9-146.1</th><th>3.407.9-146.3</th></tr></thead>
-				<tbody>
-					<tr><td>Класс напряжения</td><td>6-10 кВ</td><td>35 кВ</td></tr>
-					<tr><td>Серии опор</td><td>4.0639, 25.0074</td><td>8.0662</td></tr>
-					<tr><td>Тип опор</td><td>Стоечные</td><td>Решётчатые</td></tr>
-					<tr><td>Тип фундамента</td><td>Свайный (ростверк + сваи)</td><td>Грибовидный (цельносварной)</td></tr>
-					<tr><td>Фундаментов на 1 опору</td><td>1</td><td>4 (по 1 на ногу)</td></tr>
-					<tr><td>Глубина заложения</td><td>По длине сваи (4-12 м)</td><td>1,6-3,0 м (котлован)</td></tr>
-					<tr><td>Монтаж</td><td>Забивка / бурение свай</td><td>Котлован, установка, засыпка</td></tr>
-					<tr><td>Масса, кг</td><td>80-280</td><td>150-600</td></tr>
-					<tr><td>Цена от</td><td>12 000 руб.</td><td>25 000 руб.</td></tr>
-				</tbody></table>
 			</div>
 			</div>
 
 			<!-- Типы фундаментов -->
 			<div class="content-section">
-			<h2>Типы фундаментов</h2>
+			<h2><span class="client-edit">Типы стальных элементов фундаментов</span></h2>
+			<p class="foundation-lead"><span class="client-edit">Серия 3.407.9-146.1 и серия 3.407.9-146.3 применяются для стальных опор ВЛ 35-500 кВ. Стальные элементы фундаментов - балки, узлы и соединительные детали из швеллеров, двутавров и стальных листов. Они устанавливаются на верхнюю часть подземных свай, жёстко объединяют сваи между собой и передают нагрузку от тяжёлой опоры ЛЭП на грунт.</span></p>
+			<p><span class="client-edit">Тип и размеры стальной конструкции зависят от схемы нагрузок и количества используемых свай.</span></p>
 
-			<h3>Свайные (серия 146.1)</h3>
-			<p>Ростверк на забивных стальных сваях. Применяются под стоечные опоры 6-10 кВ. Тип ростверка зависит от нагрузки на опору.</p>
-			<ul>
-				<li><strong>Односвайный</strong>Под промежуточные опоры (Пт10-1, Пс10-1) на прямых участках. Одна свая, минимальная стоимость.</li>
-				<li><strong>Двухсвайный</strong>Под промежуточные и угловые опоры при повышенных боковых нагрузках. Устойчивее односвайного при ветре.</li>
-				<li><strong>Четырёхсвайный</strong>Под анкерные (Ат10-1, Ас10-1) и концевые опоры. Воспринимает одностороннее тяжение провода.</li>
-			</ul>
+			<h3><span class="client-edit">Классификация стальных фундаментов по числу свай (выпуск 1)</span></h3>
+			<div class="foundation-detail-grid">
+				<div class="foundation-detail-card client-edit">
+					<h4>Односвайные стальные переходники</h4>
+					<p><strong>Марки:</strong> М42, М43. Применяются под промежуточные свободностоящие стальные опоры на прямых участках трасс. Это стальной «колпак» с анкерными болтами: он крепится к верхней части одной сваи, после чего на него монтируется нога опоры ЛЭП.</p>
+				</div>
+				<div class="foundation-detail-card client-edit">
+					<h4>Двухсвайные стальные соединительные балки</h4>
+					<p>Используются под промежуточные опоры ВЛ 35-220 кВ с повышенными боковыми нагрузками, а также под центральные стойки опор на оттяжках ВЛ 35-500 кВ. Горизонтальная балка связывает две сваи и повышает устойчивость фундамента при ветровой нагрузке.</p>
+				</div>
+				<div class="foundation-detail-card client-edit">
+					<h4>Четырёхсвайные стальные соединительные конструкции</h4>
+					<p>Применяются под тяжёлые анкерно-угловые, концевые и переходные опоры ЛЭП. Крестообразная система из стальных балок объединяет куст из четырёх свай и воспринимает выдёргивающие усилия от одностороннего натяжения проводов.</p>
+				</div>
+			</div>
 
-			<h3>Грибовидные (серия 146.3)</h3>
-			<p>Цельносварные конструкции из стального листа и профиля. Погружаются в котлован и засыпаются грунтом. Под каждую ногу решётчатой опоры 35 кВ ставится отдельный фундамент - 4 штуки на опору.</p>
-			<ul>
-				<li><strong>Марки Б35-0</strong>Базовый тип для промежуточных опор Пт35-1, Пт35-2. Глубина 2,0 и 3,0 м.</li>
-				<li><strong>Марки Б35-1, Б35-1.5, Б35-1.10</strong>Для угловых и промежуточных усиленных опор. Разная несущая способность при одинаковой глубине.</li>
-				<li><strong>Марка Б35-2</strong>Под анкерно-угловые опоры Ат35 с максимальными нагрузками. Глубина 1,6 м, широкая опорная пята.</li>
-			</ul>
+			<h3><span class="client-edit">Заводские марки стальных балок (выпуск 3)</span></h3>
+			<p><span class="client-edit">Маркировка элементов показывает сечение сваи, количество свай в узле и расстояние между крепёжными болтами.</span></p>
+			<div class="foundation-detail-grid">
+				<div class="foundation-detail-card client-edit">
+					<h4>Б35-2</h4>
+					<p>Например, Б35-2-24 и Б35-2-30. Стальные балки для двухсвайных фундаментов под обычные промежуточные опоры. «Б» - балка, «35» - свая 350x350 мм, «2» - две сваи, «24» или «30» - расстояние между болтами 240 или 300 мм.</p>
+				</div>
+				<div class="foundation-detail-card client-edit">
+					<h4>Б56-1/5-30</h4>
+					<p>Тяжёлая стальная балка для двухсвайных фундаментов под стойки мощных опор на оттяжках ВЛ 35-500 кВ. «56» - круглая свая диаметром 560 мм, «1/5» - уклон верхней площадки, «30» - швеллер N30.</p>
+				</div>
+				<div class="foundation-detail-card client-edit">
+					<h4>Б35-4</h4>
+					<p>Например, Б35-4-30 и Б35-4-40. Особо прочные конструкции для четырёхсвайных фундаментов под самые нагруженные анкерно-угловые опоры. «4» означает, что элемент связывает четыре сваи в единую систему.</p>
+				</div>
+			</div>
 			</div>
 
 			<!-- Грунты -->
 			<div class="content-section">
-			<h2>Фундаменты для грунтов ХМАО и ЯНАО</h2>
-			<p>В Западной Сибири встречаются талые, сезонномёрзлые и вечномёрзлые грунты. Обе серии фундаментов применяются во всех условиях, но способ устройства отличается.</p>
+			<h2><span class="client-edit">Фундаменты для грунтов ХМАО и ЯНАО</span></h2>
+			<p><span class="client-edit">В Западной Сибири встречаются талые, сезонномёрзлые и вечномёрзлые грунты. Данные серии свайных фундаментов со стальными элементами применяются во всех условиях, но способ их устройства отличается.</span></p>
 			<div class="use-cards">
-				<div class="use-card"><div class="use-card-icon">icon</div><div><h4>Талые грунты</h4><p>Свайные (146.1) - забивка копром. Грибовидные (146.3) - котлован экскаватором. Глубина ниже промерзания по СП 22.13330</p></div></div>
-				<div class="use-card"><div class="use-card-icon">icon</div><div><h4>Вечномёрзлые грунты (I принцип)</h4><p>Мерзлоту сохраняют. Сваи бурят в предварительно оттаянный грунт, после замораживают. Термостабилизаторы обязательны</p></div></div>
-				<div class="use-card"><div class="use-card-icon">icon</div><div><h4>Сезонномёрзлые грунты</h4><p>Забивка свай в летний период. Для грибовидных - котлован с учётом морозного пучения. Обратная засыпка непучинистым грунтом</p></div></div>
-				<div class="use-card"><div class="use-card-icon">icon</div><div><h4>Слабые и обводнённые грунты</h4><p>Свайные фундаменты (146.1) предпочтительнее - сваи проходят слабый слой до несущего. Грибовидные требуют водопонижения</p></div></div>
+				<div class="use-card client-edit"><div class="use-card-icon">icon</div><div><h4>Талые и сезонномёрзлые грунты</h4><p>Производится обычная забивка железобетонных свай копровыми установками. Зимой часто используют предварительный лидерный бурозасверк для прохождения верхнего мёрзлого слоя. Глубина погружения назначается ниже расчётной глубины промерзания по СП 22.13330.</p></div></div>
+				<div class="use-card client-edit"><div class="use-card-icon">icon</div><div><h4>Вечномёрзлые грунты ЯНАО (I принцип)</h4><p>Мёрзлое состояние грунтов сохраняется при строительстве и эксплуатации. Сваи устанавливают буроопускным способом по СП 25.13330: скважину увеличенного диаметра заполняют грунтовым или цементно-песчаным раствором, затем опускают сваю.</p></div></div>
+				<div class="use-card client-edit"><div class="use-card-icon">icon</div><div><h4>Термостабилизаторы</h4><p>Для предотвращения растепления грунтов вокруг свай в вечномёрзлых основаниях применяются сезоннодействующие охлаждающие устройства - термостабилизаторы.</p></div></div>
+				<div class="use-card client-edit"><div class="use-card-icon">icon</div><div><h4>Слабые, болотистые и обводнённые грунты ХМАО</h4><p>Свайные фундаменты серий 3.407.9-146.1/.3 предпочтительны для болотистых территорий Югры: длинные сваи проходят торф, плывуны и другие слабые слои, защемляясь в плотных несущих грунтах.</p></div></div>
 			</div>
 			<div class="callout">
-				<p>Расчётная глубина промерзания суглинка для Сургута - около <strong>2,4 м</strong> по СП 131.13330. В северных районах ХМАО (Нижневартовск, Когалым, Нягань) вечная мерзлота начинается с глубины 1-3 м. Тип фундамента и длину свай определяет проект по результатам инженерно-геологических изысканий.</p>
+				<p><span class="client-edit">Стальные соединительные балки монтируются выше уровня грунтовых и болотных вод. Расчётная глубина промерзания суглинка для Сургута составляет около <strong>2,4 м</strong>. В северных районах ХМАО и на территории ЯНАО островная и сплошная вечная мерзлота может начинаться с глубины 1-3 м. Точный тип свай, их длину и марку надземных стальных соединительных элементов определяет проект на основании инженерно-геологических изысканий.</span></p>
 			</div>
 			</div>
 
 			<!-- Преимущества -->
 			<div class="content-section">
 			<h2>Почему заказывают фундаменты в «Сварсиб»</h2>
-			<p>Изготавливаем обе серии фундаментов вместе с опорами ВЛ на одной площадке в Сургуте.</p>
+			<p><span class="client-edit">Изготавливаем сваи и стальные элементы фундаментов на одной площадке в Сургуте.</span></p>
 			<div class="advantages-grid">
-				<div class="advantage-card"><div class="advantage-num">1</div><h3>Опоры + фундаменты вместе</h3><p>Серии опор 4.0639, 25.0074, 8.0662 и фундаменты 146.1, 146.3 к ним. Один поставщик, одна доставка.</p></div>
+				<div class="advantage-card client-edit"><div class="advantage-num">1</div><h3>Сваи + фундаменты</h3><p>Сваи + фундаменты вместе. Один поставщик, одна доставка.</p></div>
 				<div class="advantage-card"><div class="advantage-num">2</div><h3>09Г2С для вечной мерзлоты</h3><p>Хладостойкая сталь с ударной вязкостью KCV при -70 °C. Обязательна по СП 16.13330 для объектов ХМАО и ЯНАО.</p></div>
-				<div class="advantage-card"><div class="advantage-num">3</div><h3>Горячее цинкование</h3><p>Фундамент работает в грунте - коррозия неизбежна без защиты. Цинкование по ГОСТ 9.307 (от 80 мкм) защищает на 40-50 лет.</p></div>
-				<div class="advantage-card"><div class="advantage-num">4</div><h3>Контрольная сборка</h3><p>Каждый фундамент проходит контрольную стыковку с опорой на заводе. Совпадение отверстий и посадка гарантированы.</p></div>
-				<div class="advantage-card"><div class="advantage-num">5</div><h3>Сваи в комплекте</h3><p>Стальные сваи с наконечниками для серии 146.1 изготавливаем на соседнем участке. Один заказ - полный комплект.</p></div>
-				<div class="advantage-card"><div class="advantage-num">6</div><h3>Доставка по ХМАО и ЯНАО</h3><p>Опоры и фундаменты грузим вместе. Одна машина на площадку - дешевле логистика.</p></div>
+				<div class="advantage-card"><div class="advantage-num">3</div><h3>Контрольная сборка</h3><p>Каждый фундамент проходит контрольную стыковку с опорой на заводе. Совпадение отверстий и посадка гарантированы.</p></div>
+				<div class="advantage-card client-edit"><div class="advantage-num">4</div><h3>Сваи в комплекте</h3><p>Один заказ - полный комплект.</p></div>
+				<div class="advantage-card client-edit"><div class="advantage-num">5</div><h3>Доставка по ХМАО и ЯНАО</h3><p>Сваи и фундаменты грузим вместе. Одна машина на площадку - дешевле логистика.</p></div>
 			</div>
 			</div>
 
@@ -801,12 +911,9 @@
 			<div class="content-section">
 			<h2>Частые вопросы</h2>
 			<div class="faq-list">
-				<details><summary>Какую серию фундаментов выбрать?</summary><div class="faq-answer">Зависит от класса напряжения линии. Под опоры 6-10 кВ (серии 4.0639, 25.0074) - свайные фундаменты серии 3.407.9-146.1. Под опоры 35 кВ (серия 8.0662) - грибовидные серии 3.407.9-146.3. Серию фундамента назначает проект.</div></details>
 				<details><summary>Можно ли заказать фундаменты без опор?</summary><div class="faq-answer">Да. Мы изготавливаем фундаменты как в комплекте с опорами, так и отдельно. При отдельном заказе пришлите чертежи КМ или спецификацию с марками фундаментов и количеством.</div></details>
 				<details><summary>Из какой стали делают фундаменты для ХМАО?</summary><div class="faq-answer">09Г2С по ГОСТ 19281 - хладостойкая сталь с ударной вязкостью при -70 °C. Расчётная температура для Сургута по СП 131.13330 составляет -49 °C, что требует 09Г2С. Ст3сп допускается только для средней полосы.</div></details>
 				<details><summary>Нужны ли термостабилизаторы?</summary><div class="faq-answer">В вечномёрзлых грунтах - да. Термостабилизаторы сохраняют мерзлоту вокруг сваи и не дают ей потерять несущую способность при сезонном оттаивании. В талых грунтах Сургута термостабилизаторы не требуются. Решение принимается по данным инженерно-геологических изысканий.</div></details>
-				<details><summary>Какие сроки изготовления?</summary><div class="faq-answer">Свайные фундаменты (146.1) - 10-20 рабочих дней. Грибовидные (146.3) - 15-25 рабочих дней, больше сварных операций. При заказе с опорами фундаменты изготавливаем параллельно - общий срок не растёт.</div></details>
-				<details><summary>Входят ли сваи в комплект?</summary><div class="faq-answer">В свайных фундаментах серии 146.1 сваи заказываются отдельно - их длина зависит от грунтовых условий на конкретной площадке. Мы изготавливаем стальные сваи с наконечниками на той же производственной площадке. В грибовидных (146.3) свай нет - это цельносварная конструкция.</div></details>
 			</div>
 			</div>
 
@@ -859,14 +966,14 @@
 		"@graph": [
 			{
 				"@type": "Product",
-				"name": "Фундаменты для опор ВЛ",
-				"description": "Стальные фундаменты под опоры ВЛ 6-10 кВ и 35 кВ. Свайные серии 3.407.9-146.1 и грибовидные серии 3.407.9-146.3. Сталь 09Г2С до -70 °C.",
+				"name": "Конструкции свайных фундаментов для опор 35-500 кВ",
+				"description": "Стальные элементы свайных фундаментов под опоры ВЛ 35-500 кВ. Серии 3.407.9-146.1 и 3.407.9-146.3. Сталь 09Г2С до -70 °C.",
 				"brand": {"@type": "Brand", "name": "Сварсиб"},
 				"manufacturer": {"@type": "Organization", "name": "Сварсиб"},
 				"offers": {
 					"@type": "AggregateOffer",
 					"priceCurrency": "RUB",
-					"lowPrice": "12000",
+					"lowPrice": "15000",
 					"highPrice": "85000",
 					"availability": "https://schema.org/InStock",
 					"offerCount": "12",
@@ -877,12 +984,9 @@
 			{
 				"@type": "FAQPage",
 				"mainEntity": [
-					{"@type": "Question", "name": "Какую серию фундаментов выбрать?", "acceptedAnswer": {"@type": "Answer", "text": "Под опоры 6-10 кВ (серии 4.0639, 25.0074) - свайные серии 3.407.9-146.1. Под опоры 35 кВ (серия 8.0662) - грибовидные серии 3.407.9-146.3."}},
 					{"@type": "Question", "name": "Можно ли заказать фундаменты без опор?", "acceptedAnswer": {"@type": "Answer", "text": "Да, изготавливаем как в комплекте с опорами, так и отдельно. Пришлите чертежи КМ или спецификацию."}},
 					{"@type": "Question", "name": "Из какой стали делают фундаменты для ХМАО?", "acceptedAnswer": {"@type": "Answer", "text": "09Г2С по ГОСТ 19281. Расчётная температура Сургута -49 °C по СП 131.13330 - хладостойкая сталь обязательна."}},
-					{"@type": "Question", "name": "Нужны ли термостабилизаторы?", "acceptedAnswer": {"@type": "Answer", "text": "В вечномёрзлых грунтах - да. В талых грунтах Сургута не требуются. Решение по данным изысканий."}},
-					{"@type": "Question", "name": "Какие сроки изготовления?", "acceptedAnswer": {"@type": "Answer", "text": "Свайные (146.1) 10-20 дней. Грибовидные (146.3) 15-25 дней. При заказе с опорами изготавливаем параллельно."}},
-					{"@type": "Question", "name": "Входят ли сваи в комплект?", "acceptedAnswer": {"@type": "Answer", "text": "В свайных (146.1) сваи отдельно - длина зависит от грунтов. Изготавливаем на той же площадке. В грибовидных (146.3) свай нет."}}
+					{"@type": "Question", "name": "Нужны ли термостабилизаторы?", "acceptedAnswer": {"@type": "Answer", "text": "В вечномёрзлых грунтах - да. В талых грунтах Сургута не требуются. Решение по данным изысканий."}}
 				]
 			}
 		]
@@ -890,3 +994,4 @@
 	</script>
 </body>
 </html>
+			.mobile-break { display: block; }
